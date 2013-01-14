@@ -53,7 +53,7 @@ Contributions and Thanks
 -----
 
 Thanks to all our contributing authors, including (in chronological order):
--  Cameron Davidson-Pilon
+-  [Cameron Davidson-Pilon](http://www.camdp.com)
 -  Andrew Hand
 
 
