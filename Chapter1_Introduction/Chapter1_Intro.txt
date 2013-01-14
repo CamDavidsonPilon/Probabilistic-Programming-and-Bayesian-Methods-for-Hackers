@@ -1,0 +1,25 @@
+#Introduction
+
+
+Introduction
+------------
+    
+    - what is the bayesian method, philosophically and practically
+    - how does it differ from the frequentist version: quick description of Bayes methods vs frequentist method.
+    - Recall what a pdf is?
+    - What does sampling from the postior mean? And why do we want to do it? Good segway to...
+    
+    - PyMC intro
+    - Simple example of PyMC
+    - And the wrong frequentist solution...
+    - Why is the Bayesian method correct?
+    
+    - Technical readers:
+        - LeastSq and Lasso and Elastic Net is a 
+    
+    
+    
+    
+    
+
+
