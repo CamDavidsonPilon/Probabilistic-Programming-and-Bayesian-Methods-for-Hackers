@@ -55,6 +55,7 @@ Contributions and Thanks
 Thanks to all our contributing authors, including (in chronological order):
 -  [Cameron Davidson-Pilon](http://www.camdp.com)
 -  Andrew Hand
+ 
 
 
 We would like to thank the Python community for building an amazing archetecture. We would like to thank the 
