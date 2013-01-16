@@ -1,5 +1,8 @@
 Bayesian Methods for Hackers
----------
+========
+###With an Introduction to Probabilistic Programming using PyMC
+
+
 
 Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical, analysis. The 
 typical text on Bayesian inference involves two to three chapters on probabity theory, then enters what Bayesian inference is. Unfortunately, 
@@ -20,8 +23,8 @@ the first path proceeds by enourmous leaps, often landing far away from our targ
 the analysis required by the first path cannot even take place.
 
 
-*Bayesian Methods for Hackers* is designed as a introduction to Bayesian methods and inference from an understand-first, computational-second, and 
-mathematical-third, point of view. Of course as an introductory book without the mathematical rigour, we can only leave it at that: an introductory book.
+*Bayesian Methods for Hackers* is designed as a introduction to Bayesian methods and inference from a computation/understanding-first, and 
+mathematical-second, point of view. Of course as an introductory book without the mathematical rigour, we can only leave it at that: an introductory book.
 For the mathematical inclined, they may supplement this text with other texts designed with mathematics in mind. For the programmer with less 
 mathematical-background, or one who is not interested in the mathematics but simpely the practice of Bayesian methods, this text should be sufficient. 
 

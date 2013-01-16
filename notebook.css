@@ -93,6 +93,11 @@ span#quick_help_area {
     font-size: 85%;
 }
 
+
+blockquote{
+    background-color: rgb(240,240,240)
+    }
+
 div#notebook_panel {
     margin: 0px 0px 0px 0px;
     padding: 0px;
