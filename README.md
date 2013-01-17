@@ -14,7 +14,7 @@ If Bayesian inference is the destination, then mathematical analysis is a path t
 
 The choice of PyMC as the probabilistic programming language is two-fold. As of this writing, there is currently no central resource for examples and explanation in the PyMC universe. The official documentation assumes prior knowledge of Bayesian inference and probabilistic programming. We hope this book encourages users at every level to look at PyMC. Secondly, with recent core developments and popularity of the scientific stack in Python, PyMC is likely to become a core component of the stack.
 
-PyMC does have some dependencies to run, namely NumPy and SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy and SciPy.
+PyMC does have some dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy and SciPy only.
 
 Development and Pay-System
 ------
