@@ -1,6 +1,6 @@
 Probabilistic Programming and Bayesian Methods for Hackers
 ========
-### Using Python and PyMC
+## Using Python and PyMC
 
 ![Imgur](http://i.imgur.com/FJxrtOC.png)
 
