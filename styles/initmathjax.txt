@@ -1,0 +1,17 @@
+
+
+from itertools import combinations_with_replacement
+
+def create_pairwise_data( df ):
+    
+    n,d = df.shape
+    columns = df.columns
+        
+    df = df.copy()
+    for x,y in combinations_with_replacement( columns, 2):
+        df[ x + y ] = df[x]*df[y]
+        
+        
+    return df
+        
+    
