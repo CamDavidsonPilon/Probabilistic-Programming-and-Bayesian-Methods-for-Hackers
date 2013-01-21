@@ -1,6 +1,6 @@
-Bayesian Methods for Hackers
+Probabilistic Programming and Bayesian Methods for Hackers
 ========
-###With an Introduction to Probabilistic Programming using PyMC
+### using Python and PyMC
 
 
 
@@ -10,7 +10,7 @@ After some recent success of Bayesian methods in machine-learning competitions, 
 
 If Bayesian inference is the destination, then mathematical analysis is a path to it. On the other hand, computing power is cheap enough that we can afford to take an alternate route via probabilistic programming. The path is much more useful, as it denies the necessity of mathematical intervention at each step, that is, we remove often-intractable mathematical analysis as a prerequisite to Bayesian inference. Simply put, this path proceeds via small intermediate jumps from beginning to end, where as the first path proceeds by enormous leaps, often landing far away from our target. Furthermore, with a tuned-mathematical background, the analysis required by the first path cannot even take place.
 
-*Bayesian Methods for Hackers* is designed as a introduction to Bayesian methods and inference from a computation/understanding-first, and mathematical-second, point of view. Of course as an introductory book, we can only leave it at that: an introductory book. For the mathematically trained, they may supplement this text with other texts designed with mathematical analysis in mind. For the enthusiast with less mathematical-background, or one who is not interested in the mathematics but simply the practice of Bayesian methods, this text should be sufficient.
+*Probabilistic Programming and Bayesian Methods for Hackers* is designed as a introduction to Bayesian methods and inference from a computation/understanding-first, and mathematical-second, point of view. Of course as an introductory book, we can only leave it at that: an introductory book. For the mathematically trained, they may supplement this text with other texts designed with mathematical analysis in mind. For the enthusiast with less mathematical-background, or one who is not interested in the mathematics but simply the practice of Bayesian methods, this text should be sufficient.
 
 The choice of PyMC as the probabilistic programming language is two-fold. As of this writing, there is currently no central resource for examples and explanation in the PyMC universe. The official documentation assumes prior knowledge of Bayesian inference and probabilistic programming. We hope this book encourages users at every level to look at PyMC. Secondly, with recent core developments and popularity of the scientific stack in Python, PyMC is likely to become a core component of the stack.
 
@@ -21,7 +21,7 @@ Development and Pay-System
 
 This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
 Authors submit content or revisions using the GitHub interface. After a major revision or addition, we collect all the content, compile it to a 
-PDF, and increment the version of *Bayesian Methods for Hackers*. 
+PDF, and increment the version of *Probabilistic Programming and Bayesian Methods for Hackers*. 
 
 Finally, our reader-purchase system is different. Readers can choose how much to pay for the book, including $0.
 
