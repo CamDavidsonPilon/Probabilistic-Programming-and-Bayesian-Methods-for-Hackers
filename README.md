@@ -2,7 +2,7 @@ Probabilistic Programming and Bayesian Methods for Hackers
 ========
 ### Using Python and PyMC
 
-
+[Imgur](http://i.imgur.com/FJxrtOC.png)
 
 Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical, analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a "so-what" feeling about Bayesian inference. In fact, this was the author's own prior opinion.
 
@@ -33,7 +33,7 @@ Contributions and Thanks
 Thanks to all our contributing authors, including (in chronological order):
 -  [Cameron Davidson-Pilon](http://www.camdp.com)
 -  Andrew Hand
--  [Stef Gibson](http://www.stefgibson.com)
+-  [Stef Gibson](http://stefgibson.com)
  
 
 
