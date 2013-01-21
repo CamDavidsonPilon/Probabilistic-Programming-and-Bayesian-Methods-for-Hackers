@@ -12,6 +12,7 @@ body {
 span#save_widget {
     padding: 5px;
     margin: 0px 0px 0px 300px;
+    margin: 0px 0px 0px 300px;
     display:inline-block;
 }
 
@@ -22,6 +23,9 @@ span#notebook_name {
     border: none;
     font-size: 146.5%;
 }
+
+
+
 
 .ui-menubar-item .ui-button .ui-button-text {
     padding: 0.4em 1.0em;
@@ -92,11 +96,6 @@ span#quick_help_area {
     float: right;
     font-size: 85%;
 }
-
-
-blockquote{
-    background-color: rgb(240,240,240)
-    }
 
 div#notebook_panel {
     margin: 0px 0px 0px 0px;
@@ -273,7 +272,7 @@ div.text_cell {
     padding: 5px 5px 5px 5px;
     width: 105ex;
     line-height: 145%;
-    font-family: "Charis SIL", Verdana, Arial, sans-serif;
+    font-family: futurabook, Verdana, Arial, sans-serif
 }
 
 div.text_cell_input {
@@ -284,7 +283,7 @@ div.text_cell_input {
 }
 
 div.text_cell_render {
-    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif;
     outline: none;
     resize: none;
     width:  inherit;
