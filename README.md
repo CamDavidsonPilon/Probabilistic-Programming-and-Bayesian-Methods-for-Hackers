@@ -1,6 +1,6 @@
 Probabilistic Programming and Bayesian Methods for Hackers
 ========
-### using Python and PyMC
+### Using Python and PyMC
 
 
 
@@ -33,6 +33,7 @@ Contributions and Thanks
 Thanks to all our contributing authors, including (in chronological order):
 -  [Cameron Davidson-Pilon](http://www.camdp.com)
 -  Andrew Hand
+-  [Stef Gibson](http://www.stefgibson.com)
  
 
 
@@ -47,7 +48,7 @@ community for developing the Notebook interface. All IPython notebook files are 
 ### How to contribute
 
 ####Installation and configuration
-
+-  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
 -  In the styles/ directory are a number of files that are customized for the book. These are not only designed for the book, but they offer many improvements over the 
 default settings of matplotlib and the IPython notebook.
 
