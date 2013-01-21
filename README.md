@@ -15,14 +15,12 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 
 PyMC does have some dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy and SciPy only.
 
-Development and Pay-System
+Development
 ------
 
 This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
 Authors submit content or revisions using the GitHub interface. After a major revision or addition, we collect all the content, compile it to a 
 PDF, and increment the version of *Probabilistic Programming and Bayesian Methods for Hackers*. 
-
-Finally, our reader-purchase system is different. Readers can choose how much to pay for the book, including $0.
 
 
 Contributions and Thanks
@@ -47,15 +45,17 @@ community for developing the Notebook interface. All IPython notebook files are 
 ### How to contribute
 
 ####Installation and configuration
+
+-  IPython 0.14 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
 -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
 -  In the styles/ directory are a number of files that are customized for the book. These are not only designed for the book, but they offer many improvements over the 
 default settings of matplotlib and the IPython notebook.
-
 -  Currently the formatting of the style is not set, so try to follow what has been used so far, but inconsistencies are fine. 
 
 ####Commiting
 
-- all commits are welcome, even if they are minor. 
+-  All commits are welcome, even if they are minor. 
+-  If you are unfamiliar with Github, you can email me contributions to the email below.
 
 ####Contact
 Contact the main author, Cam Davidson-Pilon at cam.davidson.pilon@gmail.com or [@cmrndp](https://twitter.com/cmrn_dp)
