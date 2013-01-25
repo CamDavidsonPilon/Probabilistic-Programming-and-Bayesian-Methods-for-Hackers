@@ -61,4 +61,4 @@ default settings of matplotlib and the IPython notebook.
 Contact the main author, Cam Davidson-Pilon at cam.davidson.pilon@gmail.com or [@cmrndp](https://twitter.com/cmrn_dp)
 
 
-![Imgur](http://i.imgur.com/FJxrtOC.png)
+![Imgur](http://i.imgur.com/Zb79QZb.png)
