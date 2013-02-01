@@ -4,7 +4,30 @@
  * Author: IPython Development Team
  */
 
-
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+/**
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+*/
+ 
+ 
 body {
     overflow: hidden;
 }
@@ -132,10 +155,10 @@ div.ui-widget-content {
 }
 
 div.cell {
-    width: 100%;
+    width: 600px;
     padding: 5px 5px 5px 0px;
     /* This acts as a spacer between cells, that is outside the border */
-    margin: 2px 0px 2px 0px;
+    margin: auto;
 }
 
 div.code_cell {
@@ -154,11 +177,12 @@ div.prompt {
     margin: 0px;
     font-family: monospace;
     text-align:right;
-}
+    display: none;
+ }   
 
 div.input {
     page-break-inside: avoid;
-    width: 105ex;
+    width: 600px;
 }
 
 /* input_area and input_prompt must match in top border and margin for alignment */
@@ -270,9 +294,10 @@ div.output_jpeg {
 div.text_cell {
     background-color: white;
     padding: 5px 5px 5px 5px;
-    width: 105ex;
+    width: 600px;
     line-height: 145%;
-    font-family: futurabook, Verdana, Arial, sans-serif
+    font-family: "Computer Modern", futurabook, Verdana, Arial, sans-serif;
+    margin:auto;
 }
 
 div.text_cell_input {
@@ -283,7 +308,7 @@ div.text_cell_input {
 }
 
 div.text_cell_render {
-    font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif;
+    font-family: "Computer Modern", futurabook, Verdana, Arial, sans-serif;
     outline: none;
     resize: none;
     width:  inherit;
