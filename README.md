@@ -48,8 +48,9 @@ community for developing the Notebook interface. All IPython notebook files are 
 
 -  IPython 0.14 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
 -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
--  In the styles/ directory are a number of files that are customized for the book. These are not only designed for the book, but they offer many improvements over the 
-default settings of matplotlib and the IPython notebook.
+-  In the styles/ directory are a number of files that are customized for the *pdf version of the book*. 
+These are not only designed for the book, but they offer many improvements over the 
+default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.
 -  Currently the formatting of the style is not set, so try to follow what has been used so far, but inconsistencies are fine. 
 
 ####Commiting
