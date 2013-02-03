@@ -44,6 +44,15 @@ community for developing the Notebook interface. All IPython notebook files are 
 
 ### How to contribute
 
+####What to contribute?
+
+-  The current chapter list is not finalized. If you see something that is missing (MCMC, MAP, Bayesian networks, good prior choices, Potential classes etc.),
+feel free to start there. 
+-  Cleaning up Python code and making code more PyMC-esque.
+-  Giving better explainations
+-  Contributing to the IPython notebook styles.
+
+
 ####Installation and configuration
 
 -  IPython 0.14 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
@@ -55,7 +64,7 @@ default settings of matplotlib and the IPython notebook. The in notebook style h
 
 ####Commiting
 
--  All commits are welcome, even if they are minor. 
+-  All commits are welcome, even if they are minor ;)
 -  If you are unfamiliar with Github, you can email me contributions to the email below.
 
 ####Contact
