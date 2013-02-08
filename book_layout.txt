@@ -1,0 +1,59 @@
+# Bayesian Methods for Hackers Layout
+
+\section{ Preamble}
+
+
+\chapter1{ Introduction }
+
+        
+\chapter2{More PyMC / Modeling in PyMC}
+    #flexible about what this section is. Basically it's more intro to the 
+    syntax of PyMC, with examples + distributions.
+
+\chapter3{ Intro to MCMC and Diagnogstics }
+    
+    
+\chapter4{ The greatest theorem never told }
+    #This is about the law of large numbers and how a bayesian uses it for estimates. 
+ 
+    
+    
+\chapter5{ Would you rather lose an arm or a leg? }
+  #Introduction to loss functions and point estimation.
+
+
+
+>>>>>>>>>
+Below is subject to change
+  
+\chapter6{What should my prior look like?}
+    \subsection{Noninformative priors...}
+    \subsection{Noninformative priors do not exist}
+    \subsection{Good choices of priors }
+  
+\chapter7{ Bayesian Networks }
+    #I do not know too much about this.
+
+    
+\chapter8{ Gaussian Processes }
+    # pymc.gp
+ 
+ 
+\chapter9{ Large Scale systems }
+    #how can we scale PyMC to larger systems/datasets?
+ 
+\chapter10{More hacking with PyMC}
+    #some examples from PyMC.
+    # Potential class?
+
+
+
+
+\section{Appendix}
+    \subsection{A}
+        #Chart of distributions and their support
+    \subsection{B}
+        #Appendix on MCMC
+    \section{C} 
+        #Proofs
+        
