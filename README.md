@@ -15,6 +15,23 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 
 PyMC does have some dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy and SciPy only.
 
+
+Using the book
+-------
+
+The book can be read in three different ways. The most traditional approach is to read the chapters as PDFs contained in the `previews` folder. The content
+in these PDFs is not guarunteed to be the most recent content as the PDFs are only compiled periodically. Similarly, the book will not be
+interactive.
+
+The second option is to use the nbviewer website, which display ipython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
+In each chapter's folder is a README that links to the nbviewer url. These are not interactive either.
+ 
+The final option is to fork the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
+chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
+this book, though it comes with some dependencies. 
+ 
+
+
 Development
 ------
 
@@ -29,8 +46,8 @@ Contributions and Thanks
 
 Thanks to all our contributing authors, including (in chronological order):
 -  [Cameron Davidson-Pilon](http://www.camdp.com)
--  Andrew Hand
 -  [Stef Gibson](http://stefgibson.com)
+-  [Vincent Ohprecio)(http://bigsnarf.wordpress.com/)
  
 
 
