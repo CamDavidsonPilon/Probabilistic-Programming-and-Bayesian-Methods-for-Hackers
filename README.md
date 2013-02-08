@@ -47,7 +47,7 @@ Contributions and Thanks
 Thanks to all our contributing authors, including (in chronological order):
 -  [Cameron Davidson-Pilon](http://www.camdp.com)
 -  [Stef Gibson](http://stefgibson.com)
--  [Vincent Ohprecio)(http://bigsnarf.wordpress.com/)
+-  [Vincent Ohprecio](http://bigsnarf.wordpress.com/)
  
 
 
