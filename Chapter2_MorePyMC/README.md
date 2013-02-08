@@ -19,7 +19,7 @@ For more
 -------------
 Open with your browser: http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb
 
-#### Screenshot of notebook for Chapter 1
+#### Screenshot of notebook for Chapter 2 
 ---------------
 ![alt text][logo]
 [logo]: https://raw.github.com/bigsnarfdude/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Screen%20Shot%202013-02-08%20at%2011.23.49%20AM.png "Chapter 2 iPython Notebook Screenshot"
