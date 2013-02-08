@@ -22,5 +22,5 @@ Open with your browser: http://nbviewer.ipython.org/urls/raw.github.com/CamDavid
 #### Screenshot of notebook for Chapter 1
 ---------------
 ![alt text][logo]
-[logo]: https://raw.github.com/bigsnarfdude/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Screen%20Shot%202013-02-06%20at%205.52.18%20PM.png "Chapter 1 iPython Notebook Screenshot"
+[logo]: https://raw.github.com/bigsnarfdude/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Screen%20Shot%202013-02-08%20at%2011.23.49%20AM.png "Chapter 2 iPython Notebook Screenshot"
 
