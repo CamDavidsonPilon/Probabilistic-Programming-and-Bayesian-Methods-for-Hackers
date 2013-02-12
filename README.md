@@ -16,6 +16,16 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 PyMC does have some dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy and SciPy only.
 
 
+Examples from the book:
+------
+
+1. Inferring human behaviour from SMS message rates.
+2. Solving the Price is Right Showdown.
+3. Implementing Kaggle winning solutions.
+4. Exploring Github's social datasets.
+5. Aerospace data, specifically the Challenger Spacecraft explosion.
+6. Proving smoking really does kill people. 
+
 Using the book
 -------
 
