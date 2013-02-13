@@ -271,6 +271,8 @@ def main_score( nhalo_all, x_true_all, y_true_all, x_ref_all, y_ref_all, sky_pre
     W1=1./1000. #Weight the av_r such that < 1 i a good score > 1 isnt so good.
     W2=1.
     metric = W1*av_r + W2*angle_vec #Weighted metric, weights TBD
+    print 'Your average distance in pixels you are away from the true halo is', av_r
+    print 'Your average angular vector is', angle_vec
     print 'Your score for the training data is', metric
     return metric
     
