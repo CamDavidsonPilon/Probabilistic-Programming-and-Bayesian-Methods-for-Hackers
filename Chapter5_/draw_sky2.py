@@ -5,7 +5,7 @@ import numpy as np
 def draw_sky( galaxies ):
     """adapted from Vishal Goklani"""
     size_multiplier = 45
-    fig = plt.figure(figsize=(9,9))
+    fig = plt.figure(figsize=(10,10))
     fig.patch.set_facecolor("blue")
     ax = fig.add_subplot(111, aspect='equal')
     n = galaxies.shape[0]
