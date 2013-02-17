@@ -59,7 +59,7 @@ def calc_delta_r(x_predicted,y_predicted,x_true,y_true):
         which_true_halos=[]
         which_predicted_halos=[]
         for j in xrange(num_halos): #loop through all the true halos with the
-                                    #predicted halos indexed by perm[j]
+
             distances_perm[count,j]=np.sqrt((x_true[j]-x_predicted[int(perm[j])])**2\
                                       +(y_true[j]-y_predicted[int(perm[j])])**2)
                                       #This array logs the distance between true and
