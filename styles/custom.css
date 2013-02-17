@@ -1,0 +1,26 @@
+<style>
+    @font-face {
+        font-family: "Computer Modern";
+        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+    }
+    div.cell{
+        width:800px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    h1 {
+        text-align:center;
+        font-family:"Charis SIL", serif;
+    }
+    div.text_cell_render{
+        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        line-height: 145%;
+        font-size: 110%;
+    }
+    .CodeMirror{
+            font-family: Consolas, monospace;
+    }
+    .prompt{
+        display: None;
+    }
+</style>
