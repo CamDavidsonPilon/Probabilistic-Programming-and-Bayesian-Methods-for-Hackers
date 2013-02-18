@@ -16,16 +16,32 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy and SciPy only.
 
 
-Examples from the book:
+Contents
 ------
 
-1. Infering human behaviour from SMS message rates, Chapter 1.
-2. Solving the Price is Right Showdown, Chapter 5.
-3. Implementing Kaggle winning solutions, Chapter 5.
-4. Exploring Github's social datasets, Chapter 10.
-5. Aerospace data, specifically the Challenger Spacecraft explosion, Chapter 2.
-6. Financial models wth non-linear payoffs, Chapter 5.
-7. Proving smoking really does kill people, Chapter 2.
+(This is all rendered via the *nbviewer* is is read-only. Editable notebooks + examples can be downloaded too by forking! )
+
+1. [Chapter 1: Introduction to Bayesian Methods](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
+    Introduction to the philosophy and practice of Bayesian methods and answering the question "What is probabilistic programming?" 
+    1. Example: Inferring human behaviour changes from text message rates.
+2. [Chapter 2: A little more on PyMC](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
+    We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models?
+    1. Example: Definitive linking between smoking and death.
+    2. Example: Calculating probabilities of space-shuttle disasters.
+3. [Chapter 3: Opening the Black Box of MCMC](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
+    We discuss how MCMC operates and diagnostic tools.
+4. [Chapter 4: The Greatest Theorem Never Told](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
+    We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers
+    1. Example: Exploring a Kaggle dataset and the pitfalls of naive analysis
+5. [Chapter 5: Would you rather loss an arm or a leg?](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_/LossFunctions.ipynb)
+    The introduction of Loss functions and there (awesome) use in Bayesian methods. 
+    1. Example: Solving the Price is Right's Showdown
+    2. Example: Optimizing financial predictions
+    3. Example: Winning solution to the Kaggle Dark World's competition.
+10\. Chapter 10: More PyMC Hackery
+    We explore the gritty details of PyMC through code and examples.
+    1. Example: Analysis on real-time GitHub repo stars and forks.
+
 
 Using the book
 -------
