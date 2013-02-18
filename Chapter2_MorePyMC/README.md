@@ -11,15 +11,13 @@ The lesson was created with IPython Notebook. It allows a user to interact with 
 
 ### Option 2
 -------------
-Open with your browser: http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb
+Open with your browser:http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb
 
 
 ### Option 3
 -------------
 PDFs of the chapters are available [online](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/tree/master/previews).
 These are update periodically: they will not be the most recent. 
-
-
 
 #### Screenshot of notebook for Chapter 2 
 ---------------
