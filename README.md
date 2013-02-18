@@ -20,6 +20,7 @@ Contents
 ------
 
 (This is all rendered via the *nbviewer* is is read-only. Editable notebooks + examples can be downloaded too by forking! )
+0\. [**Prolouge**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prolouge/Prolouge.ipynb)Why we do it.
 
 1. [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
     Introduction to the philosophy and practice of Bayesian methods and answering the question "What is probabilistic programming?" Examples include:
