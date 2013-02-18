@@ -22,33 +22,33 @@ Contents
 (This is all rendered via the *nbviewer* is is read-only. Editable notebooks + examples can be downloaded too by forking! )
 
 
-0. [**Prolouge.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prolouge/Prolouge.ipynb) Why we do it.
+* [**Prolouge.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prolouge/Prolouge.ipynb) Why we do it.
 
-1. [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
+* [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
     Introduction to the philosophy and practice of Bayesian methods and answering the question "What is probabilistic programming?" Examples include:
     - Inferring human behaviour changes from text message rates.
     
-2. [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
+* [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Definitive linking between smoking and death.
     - Calculating probabilities of space-shuttle disasters.
     
-3. [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
+* [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
     We discuss how MCMC operates and diagnostic tools.
     
-4. [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
+* [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
     
-5. [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_/LossFunctions.ipynb)
+* [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_/LossFunctions.ipynb)
     The introduction of Loss functions and there (awesome) use in Bayesian methods.  Examples include:
-    - Example: Solving the Price is Right's Showdown
-    - Example: Optimizing financial predictions
-    - Example: Winning solution to the Kaggle Dark World's competition.
+    - Solving the Price is Right's Showdown
+    - Optimizing financial predictions
+    - Winning solution to the Kaggle Dark World's competition.
     
-10\. Chapter 10: More PyMC Hackery
+* Chapter 10: More PyMC Hackery
     We explore the gritty details of PyMC through code and examples. Examples include:
-    - Example: Analysis on real-time GitHub repo stars and forks.
+    -  Analysis on real-time GitHub repo stars and forks.
 
 
 Using the book
