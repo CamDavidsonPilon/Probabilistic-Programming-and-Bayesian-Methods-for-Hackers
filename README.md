@@ -89,8 +89,8 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Cameron Davidson-Pilon](http://www.camdp.com)
 -  [Stef Gibson](http://stefgibson.com)
 -  [Vincent Ohprecio](http://bigsnarf.wordpress.com/)
--  Lars Buitinck
- 
+-  [Lars Buitinck](https://github.com/larsman)
+-  [Paul Magwene](http://github.com/pmagwene) 
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
