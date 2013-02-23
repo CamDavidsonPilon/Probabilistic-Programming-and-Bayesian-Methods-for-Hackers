@@ -55,21 +55,22 @@ Contents
 Using the book
 -------
 
-1. The book can be read in three different ways. The most traditional approach, and also not recommended, is to read the chapters as PDFs contained in the `previews` folder. The content
-in these PDFs is not guarunteed to be the most recent content as the PDFs are only compiled periodically. Similarly, the book will not be
-interactive.
+The book can be read in three different ways, starting from most recommended to least recommended: 
 
-2. The second, more preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
-The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
- 
-3. The final option is to fork the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
+1. The most recommended option is to fork the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
 this book, though it comes with some dependencies. 
     -  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
     -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
     -  In the styles/ directory are a number of files that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib and the IPython notebook.
  
-
+2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
+The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
+ 
+3. The most traditional approach, but also not recommended, is to read the chapters as PDFs contained in the `previews` folder. The content
+in these PDFs is not guarunteed to be the most recent content as the PDFs are only compiled periodically. Similarly, the book will not be
+interactive.
+ 
 Development
 ------
 
