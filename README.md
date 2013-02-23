@@ -19,7 +19,7 @@ PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not 
 Contents
 ------
 
-(The below chapter are rendered via the *nbviewer*, and is read-only. Editable notebooks + examples can be downloaded by forking! )
+(The below chapters are rendered via the *nbviewer* at [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only. EInteractive notebooks + examples can be downloaded by forking! )
 
 
 * [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
@@ -55,22 +55,20 @@ Contents
 Using the book
 -------
 
-The book can be read in three different ways. The most traditional approach is to read the chapters as PDFs contained in the `previews` folder. The content
+1. The book can be read in three different ways. The most traditional approach, and also not recommended, is to read the chapters as PDFs contained in the `previews` folder. The content
 in these PDFs is not guarunteed to be the most recent content as the PDFs are only compiled periodically. Similarly, the book will not be
 interactive.
 
-The second option is to use the nbviewer website, which display ipython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
-In each chapter's folder is a README that links to the nbviewer url. These are not interactive either.
+2. The second, more preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
+The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
  
-The final option is to fork the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
+3. The final option is to fork the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
 this book, though it comes with some dependencies. 
  
--  IPython 0.14 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
--  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
--  In the styles/ directory are a number of files that are customized for the *pdf version of the book*. 
-These are not only designed for the book, but they offer many improvements over the 
-default settings of matplotlib and the IPython notebook.
+    -  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
+    -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
+    -  In the styles/ directory are a number of files that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib and the IPython notebook.
  
 
 Development
@@ -118,7 +116,7 @@ feel free to start there.
 
 -  IPython 0.14 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
 -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
--  In the styles/ directory are a number of files that are customized for the *pdf version of the book*. 
+-  In the styles/ directory are a number of files that are customized for the notebook. 
 These are not only designed for the book, but they offer many improvements over the 
 default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.
 -  Currently the formatting of the style is not set, so try to follow what has been used so far, but inconsistencies are fine. 
