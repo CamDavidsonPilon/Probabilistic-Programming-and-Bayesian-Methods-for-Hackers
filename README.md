@@ -19,7 +19,7 @@ PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not 
 Contents
 ------
 
-(The below chapters are rendered via the *nbviewer* at [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only. EInteractive notebooks + examples can be downloaded by forking! )
+(The below chapters are rendered via the *nbviewer* at [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only. Interactive notebooks + examples can be downloaded by forking! )
 
 
 * [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
