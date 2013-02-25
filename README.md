@@ -19,7 +19,9 @@ PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not 
 Contents
 ------
 
-(The below chapters are rendered via the *nbviewer* at [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only. Interactive notebooks + examples can be downloaded by forking! )
+(The below chapters are rendered via the *nbviewer* at
+[nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only.
+Interactive notebooks + examples can be downloaded by cloning! )
 
 
 * [**Prologue.**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
@@ -57,7 +59,7 @@ Using the book
 
 The book can be read in three different ways, starting from most recommended to least recommended: 
 
-1. The most recommended option is to fork the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
+1. The most recommended option is to clone the repository and download the .ipynb files to your local machine. If you have IPython installed, you can view the 
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
 this book, though it comes with some dependencies. 
     -  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
