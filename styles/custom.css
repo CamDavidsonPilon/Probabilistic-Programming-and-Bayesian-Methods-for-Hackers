@@ -9,8 +9,7 @@
         margin-right:auto;
     }
     h1 {
-        text-align:center;
-        font-family:"Charis SIL", serif;
+        font-family: "Charis SIL", Palatino, serif;
     }
     div.text_cell_render{
         font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -21,9 +20,22 @@
         margin-right:auto;
     }
     .CodeMirror{
-            font-family: Consolas, monospace;
+            font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
     }
     .prompt{
         display: None;
     }
+    .text_cell_render h5 {
+        font-weight: 300;
+        font-size: 16pt;
+        color: #4057A1;
+        font-style: italic;
+        margin-bottom: .5em;
+        margin-top: 0.5em;
+        display: block;
+    }
+    
+    .warning{
+        color: rgb( 240, 20, 20 )
+        }
 </style>
