@@ -11,6 +11,10 @@
     h1 {
         font-family: "Charis SIL", Palatino, serif;
     }
+    h4{
+        margin-top:12px;
+        margin-bottom: 3px;
+       }
     div.text_cell_render{
         font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
         line-height: 145%;
