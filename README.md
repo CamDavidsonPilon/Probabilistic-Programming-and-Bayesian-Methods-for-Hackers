@@ -20,7 +20,7 @@ Contents
 ------
 
 (The below chapters are rendered via the *nbviewer* at
-[nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only.
+[nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
 Interactive notebooks + examples can be downloaded by cloning! )
 
 
@@ -37,7 +37,7 @@ Interactive notebooks + examples can be downloaded by cloning! )
     
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
     We discuss how MCMC operates and diagnostic tools. Examples include:
-    - Establishing a definitive link between smoking and death rates
+    - Bayesian clustering with mixture models
     
 * [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
@@ -91,6 +91,8 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Vincent Ohprecio](http://bigsnarf.wordpress.com/)
 -  [Lars Buitinck](https://github.com/larsman)
 -  [Paul Magwene](http://github.com/pmagwene) 
+-  [Matthias Bussonnier](https://github.com/Carreau)
+-  [Jens Rantil](https://github.com/JensRantil)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
@@ -116,7 +118,7 @@ feel free to start there.
 
 ####Installation and configuration
 
--  IPython 0.14 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
+-  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
 -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
 -  In the styles/ directory are a number of files that are customized for the notebook. 
 These are not only designed for the book, but they offer many improvements over the 
