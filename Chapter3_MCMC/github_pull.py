@@ -15,10 +15,11 @@ variables of interest:
     -forks
 
 """
-from requests import get
 from json import loads
 import datetime
 import numpy as np
+from requests import get
+
 
 
 MAX = 8000000
