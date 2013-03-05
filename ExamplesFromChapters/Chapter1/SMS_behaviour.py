@@ -1,6 +1,6 @@
 import pymc as mc
 
-count_data = np.loadtxt("../../Chapter1_Introduction/chp1data/txtdata.csv")
+count_data = np.loadtxt("../../Chapter1_Introduction/data/txtdata.csv")
 n_count_data = len(count_data)
 
 alpha = 1.0/count_data.mean() #recall count_data is 

@@ -1,7 +1,7 @@
 import pymc as mc
 
 
-challenger_data = np.genfromtxt("../../Chapter2_MorePyMC/chp2data/challenger_data.csv", skip_header = 1, usecols=[1,2], missing_values="NA", delimiter=",")
+challenger_data = np.genfromtxt("../../Chapter2_MorePyMC/data/challenger_data.csv", skip_header = 1, usecols=[1,2], missing_values="NA", delimiter=",")
 #drop the NA values
 challenger_data = challenger_data[ ~np.isnan(challenger_data[:,1]) ]
 
