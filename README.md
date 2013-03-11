@@ -53,7 +53,10 @@ Interactive notebooks + examples can be downloaded by cloning! )
     We explore the gritty details of PyMC through code and examples. Examples include:
     -  Analysis on real-time GitHub repo stars and forks.
 
-
+**More questions about PyMC?**
+Please post your modeling, convergence, or any other PyMC question on [cross-validated](http://stats.stackexchange.com/), the statistcs stack-exchange.
+    
+    
 Using the book
 -------
 
