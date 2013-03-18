@@ -96,6 +96,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Paul Magwene](http://github.com/pmagwene) 
 -  [Matthias Bussonnier](https://github.com/Carreau)
 -  [Jens Rantil](https://github.com/JensRantil)
+-  [y-p](https://github.com/y-p)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
