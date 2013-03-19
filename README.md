@@ -50,7 +50,7 @@ Interactive notebooks + examples can be downloaded by cloning! )
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition.
     
-* Chapter 6: Getting our *prior*-ities straight.
+* **Chapter 6: Getting our *prior*-ities straight**
     Probably the most important chapter. We draw on expert opinions to answer questions like:
     
     - how do we pick priors?  
@@ -58,19 +58,20 @@ Interactive notebooks + examples can be downloaded by cloning! )
     
     We explore useful tips to be objective in analysis, and common pitfalls of priors. 
    
-* Chapter X1: Bayesian Markov Models
+* **Chapter X1: Bayesian Markov Models**
     
-* Chapter X2: Bayesian methods in Machine Learning 
+* **Chapter X2: Bayesian methods in Machine Learning** 
     We explore how to resolve the overfitting problem plus popular ML methods. Also included are probablistic explainations of Ridge Regression and LASSO Regression.
     - Bayesian spam filtering plus *how to defeat Bayesian spam filtering*
     - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem 
     
-* Chapter X4: Troubleshooting and debugging
-    
-* Chapter X3: More PyMC Hackery
+* **Chapter X3: More PyMC Hackery**
     We explore the gritty details of PyMC. Examples include:
     -  Analysis on real-time GitHub repo stars and forks.
 
+* **Chapter X4: Troubleshooting and debugging**
+
+    
 **More questions about PyMC?**
 Please post your modeling, convergence, or any other PyMC question on [cross-validated](http://stats.stackexchange.com/), the statistcs stack-exchange.
     
