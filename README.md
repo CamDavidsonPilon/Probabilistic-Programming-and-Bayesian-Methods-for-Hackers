@@ -42,6 +42,7 @@ Interactive notebooks + examples can be downloaded by cloning! )
 * [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
+    - How to sort Reddit comments from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb)
     The introduction of Loss functions and there (awesome) use in Bayesian methods.  Examples include:
@@ -49,8 +50,25 @@ Interactive notebooks + examples can be downloaded by cloning! )
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition.
     
-* Chapter 10: More PyMC Hackery
-    We explore the gritty details of PyMC through code and examples. Examples include:
+* Chapter 6: Getting our *prior*-ities straight.
+    Probably the most important chapter. We draw on expert opinions to answer questions like:
+    
+    - how do we pick priors?  
+    - what is the relationship between data sample size and prior?
+    
+    We explore useful tips to be objective in analysis, and common pitfalls of priors. 
+   
+* Chapter X1: Bayesian Markov Models
+    
+* Chapter X2: Bayesian methods in Machine Learning 
+    We explore how to resolve the overfitting problem plus popular ML methods. Also included are probablistic explainations of Ridge Regression and LASSO Regression.
+    - Bayesian spam filtering plus *how to defeat Bayesian spam filtering*
+    - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem 
+    
+* Chapter X4: Troubleshooting and debugging
+    
+* Chapter X3: More PyMC Hackery
+    We explore the gritty details of PyMC. Examples include:
     -  Analysis on real-time GitHub repo stars and forks.
 
 **More questions about PyMC?**
