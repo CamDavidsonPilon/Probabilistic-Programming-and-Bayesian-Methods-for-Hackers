@@ -1,4 +1,4 @@
-s={'axes.axisbelow': True,
+{'axes.axisbelow': True,
  'axes.color_cycle': ['#348ABD',
   '#7A68A6',
   '#A60628',
