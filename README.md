@@ -117,6 +117,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Jens Rantil](https://github.com/JensRantil)
 -  [y-p](https://github.com/y-p)
 -  [Ethan Brown](http://www.etano.net/)
+-  [Jonathan Whitmore](http://jonathanwhitmore.com/)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
