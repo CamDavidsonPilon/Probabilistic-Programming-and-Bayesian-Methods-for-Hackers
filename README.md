@@ -13,7 +13,8 @@ If Bayesian inference is the destination, then mathematical analysis is a partic
 
 *Probabilistic Programming and Bayesian Methods for Hackers* is designed as a introduction to Bayesian inference from a computational/understanding-first, and mathematics-second, point of view. Of course as an introductory book, we can only leave it at that: an introductory book. For the mathematically trained, they may cure their curiousity this text generates with other texts designed with mathematical analysis in mind. For the enthusiast with less mathematical-background, or one who is not interested in the mathematics but simply the practice of Bayesian methods, this text should be sufficient and entertaining.
 
-<img style="float:right" src="http://i.imgur.com/25xEomH.png" height = 500 />
+<div style="float: right"><img src="http://i.imgur.com/25xEomH.png" height = 460 /></div>
+
 
 The choice of PyMC as the probabilistic programming language is two-fold. As of this writing, there is currently no central resource for examples and explanations in the PyMC universe. The official documentation assumes prior knowledge of Bayesian inference and probabilistic programming. We hope this book encourages users at every level to look at PyMC. Secondly, with recent core developments and popularity of the scientific stack in Python, PyMC is likely to become a core component soon enough.
 
