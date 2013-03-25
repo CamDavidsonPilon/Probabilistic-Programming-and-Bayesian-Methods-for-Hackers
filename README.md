@@ -7,9 +7,9 @@ Probabilistic Programming and Bayesian Methods for Hackers
 
 Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a *so-what* feeling about Bayesian inference. In fact, this was the author's own prior opinion.
 
-<div style="float: right;"><img style="float: right;" src="http://i.imgur.com/25xEomH.png" align=right height = 460 /></div>
-
 After some recent success of Bayesian methods in machine-learning competitions, I decided to investigate the subject again. Even with my mathematical background, it took me three straight-days of reading examples and trying to put the pieces together to understand the methods. There was simplely not enough literature bridging theory to practice. The problem with my misunderstanding was the disconnect between Bayesian mathematics and probabilistic programming. That being said, I suffered then so the reader would not have to now. This book attempts to bridge the gap.
+
+<div style="float: right;"><img style="float: right;" src="http://i.imgur.com/25xEomH.png" align=right height = 460 /></div>
 
 If Bayesian inference is the destination, then mathematical analysis is a particular path to it. On the other hand, computing power is cheap enough that we can afford to take an alternate route via probabilistic programming. The path is much more useful, as it denies the necessity of mathematical intervention at each step, that is, we remove often-intractable mathematical analysis as a prerequisite to Bayesian inference. Simply put, this computational path proceeds via small intermediate jumps from beginning to end, where as the first path proceeds by enormous leaps, often landing far away from our target. Furthermore, without a strong mathematical background, the analysis required by the first path cannot even take place.
 
