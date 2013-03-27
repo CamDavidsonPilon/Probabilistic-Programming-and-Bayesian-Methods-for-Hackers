@@ -8,7 +8,7 @@ Probabilistic Programming and Bayesian Methods for Hackers
 Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a *so-what* feeling about Bayesian inference. In fact, this was the author's own prior opinion.
 
 
-<div style="float: right;"><img style="float: right;" src="http://i.imgur.com/25xEomH.png" align=right height = 460 /></div>
+<div style="float: right;"><img style="float: right;" src="http://i.imgur.com/25xEomH.png" align=right height = 390 /></div>
 
 After some recent success of Bayesian methods in machine-learning competitions, I decided to investigate the subject again. Even with my mathematical background, it took me three straight-days of reading examples and trying to put the pieces together to understand the methods. There was simplely not enough literature bridging theory to practice. The problem with my misunderstanding was the disconnect between Bayesian mathematics and probabilistic programming. That being said, I suffered then so the reader would not have to now. This book attempts to bridge the gap.
 
