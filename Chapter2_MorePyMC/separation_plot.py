@@ -1,0 +1,54 @@
+# separation plot
+# Author: Cameron Davidson-Pilon,2013
+# see http://mdwardlab.com/sites/default/files/GreenhillWardSacks.pdf
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+
+def separation_plot( p, y, **kwargs ):
+    """
+    This function creates a separation plot for logitisc and probit classification. 
+    See http://mdwardlab.com/sites/default/files/GreenhillWardSacks.pdf
+    
+    p: The proportions/probabilities, can be a nxM matrix which represents M models.
+    y: the 0-1 response variables.
+    
+    """    
+    assert p.shape[0] == y.shape[0], "p.shape[0] != y.shape[0]"
+    n = p.shape[0]
+
+    try:
+        M = p.shape[1]
+    except:
+        p = p.reshape( n, 1 )
+        M = p.shape[1]
+
+    #colors = np.array( ["#fdf2db", "#e44a32"] )
+    colors_bmh = np.array( ["#eeeeee", "#348ABD"] )
+
+
+    fig = plt.figure( )#figsize = (8, 1.3*M) )
+    
+    for i in range(M):
+        ax = fig.add_subplot(M, 1, i+1)
+        ix = np.argsort( p[:,i] )
+        #plot the different bars
+        bars = ax.bar( np.arange(n)-1, np.ones(n), width=1., 
+                color = colors_bmh[ y[ix].astype(int) ], 
+                edgecolor = 'none')
+        ax.plot( np.arange(n), p[ix,i], "k", linewidth = 0.75)
+        #create expected value bar.
+        ax.vlines( [(1-p[ix,i]).sum()], [0], [1] )
+        #ax.grid(False)
+        #ax.axis('off')
+        plt.xlim( 0, n-1)
+        
+    plt.tight_layout()
+    
+    return
+    
+
+    
