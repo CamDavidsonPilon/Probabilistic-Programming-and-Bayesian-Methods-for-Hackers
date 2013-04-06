@@ -39,7 +39,7 @@ Interactive notebooks + examples can be downloaded by cloning! )
 * [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Detecting the frequency of cheating students, while avoiding liars.
-    - Calculating probabilities of space-shuttle disasters.
+    - Calculating probabilities of the Challenger space-shuttle disaster.
     
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
     We discuss how MCMC operates and diagnostic tools. Examples include:
