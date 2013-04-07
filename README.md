@@ -157,6 +157,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Jonathan Whitmore](http://jonathanwhitmore.com/)
 -  [Mattia Rigotti](https://github.com/matrig)
 -  [Colby Lemon](https://github.com/colibius)
+-  [Gustav W Delius](https://github.com/gustavdelius)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
