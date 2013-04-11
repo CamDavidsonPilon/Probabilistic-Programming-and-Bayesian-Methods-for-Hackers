@@ -76,7 +76,7 @@ lines.linewidth   : 2.0     # line width in points
 # http://matplotlib.org/api/artist_api.html#module-matplotlib.patches
 # information on patch properties
 patch.linewidth        : 0.5     # edge width in points
-patch.facecolor        : 348ABD, A60628, 7A68A6, 467821, CF4457, 188487, E24A33
+patch.facecolor        : blue
 patch.edgecolor        : eeeeee
 patch.antialiased      : True  
 
@@ -199,7 +199,7 @@ text.hinting_factor : 8 # Specifies the amount of softness for hinting in the
 #mathtext.it  : serif:italic
 #mathtext.bf  : serif:bold
 #mathtext.sf  : sans
-#mathtext.fontset : cm # Should be 'cm' (Computer Modern), 'stix',
+mathtext.fontset : cm # Should be 'cm' (Computer Modern), 'stix',
                        # 'stixsans' or 'custom'
 #mathtext.fallback_to_cm : True  # When True, use symbols from the Computer Modern
                                  # fonts when a symbol can not be found in one of
@@ -237,7 +237,7 @@ axes.labelsize      : large  # fontsize of the x any y labels
 #axes.unicode_minus  : True    # use unicode for the minus symbol
                                # rather than hyphen.  See
                                # http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
-axes.color_cycle    : 348ABD, A60628, 7A68A6, 467821, CF4457, 188487, E24A33  # color cycle for plot lines
+axes.color_cycle    : 348ABD, A60628, 7A68A6, 467821,D55E00,  CC79A7, 56B4E9, 009E73, F0E442, 0072B2  # color cycle for plot lines
                                             # as list of string colorspecs:
                                             # single letter, long name, or
                                             # web-style hex
@@ -300,7 +300,7 @@ legend.fancybox      : True  # if True, use a rounded box for the
 ### FIGURE
 # See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
 figure.figsize   : 11, 8    # figure size in inches
-#figure.dpi       : 80      # figure dots per inch
+figure.dpi       : 100     # figure dots per inch
 #figure.facecolor : 0.75    # figure facecolor; 0.75 is scalar gray
 #figure.edgecolor : white   # figure edgecolor
 #figure.autolayout : False  # When True, automatically adjust subplot
@@ -350,7 +350,7 @@ figure.figsize   : 11, 8    # figure size in inches
 # the default savefig params can be different from the display params
 # Eg, you may want a higher resolution, or to make the figure
 # background white
-#savefig.dpi        : 100      # figure dots per inch
+savefig.dpi        : 300      # figure dots per inch
 #savefig.facecolor  : white    # figure facecolor when saving
 #savefig.edgecolor  : white    # figure edgecolor when saving
 #savefig.format     : png      # png, ps, pdf, svg
