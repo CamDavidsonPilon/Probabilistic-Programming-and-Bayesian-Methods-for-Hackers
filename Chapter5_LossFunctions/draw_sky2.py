@@ -15,7 +15,7 @@ def draw_sky( galaxies ):
         d = np.sqrt( _g[2]**2 + _g[3]**2 )
         a = 1.0/ ( 1 - d )
         b = 1.0/( 1 + d)
-        theta = np.degrees( np.arctan2( _g[2], _g[3])*0.5 )
+        theta = np.degrees( np.arctan2( _g[3], _g[2])*0.5 )
         
         ax.add_patch( Ellipse(xy=(x, y), width=size_multiplier*a, height=size_multiplier*b, angle=theta) )
     ax.autoscale_view(tight=True)
