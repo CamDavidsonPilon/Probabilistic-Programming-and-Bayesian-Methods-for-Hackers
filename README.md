@@ -98,7 +98,7 @@ this book, though it comes with some dependencies.
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
  
 3. The most traditional approach, but also not recommended, is to read the chapters as PDFs contained in the `previews` folder. The content
-in these PDFs is not guarunteed to be the most recent content as the PDFs are only compiled periodically. Similarly, the book will not be
+in these PDFs is not guaranteed to be the most recent content as the PDFs are only compiled periodically. Similarly, the book will not be
 interactive.
  
 
