@@ -1,11 +1,12 @@
 #other strats.
 # TODO: UBC strat, epsilon-greedy
 
+import scipy.stats as stats
 import numpy as np
 from pymc import rbeta
 
 rand = np.random.rand
-
+beta = stats.beta
 
 
 class GeneralBanditStrat( object ):	
@@ -90,6 +91,17 @@ def random_choice( self):
     return np.random.randint( 0, len( self.wins ) )
     
     
+def ucb_bayes( self ):
+	C = 0
+	n = 10000
+	alpha =1 - 1./( (self.N+1) )
+	return np.argmax( beta.ppf( alpha,
+							   1 + self.wins, 
+							   1 + self.trials - self.wins ) )
+							   
+	
+	
+	
 class Bandits(object):
     """
     This class represents N bandits machines.
