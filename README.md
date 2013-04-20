@@ -158,6 +158,8 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Mattia Rigotti](https://github.com/matrig)
 -  [Colby Lemon](https://github.com/colibius)
 -  [Gustav W Delius](https://github.com/gustavdelius)
+-  [Matthew Conlen](http://www.mathisonian.com/) 
+-  [Jim Radford](https://github.com/radford)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
