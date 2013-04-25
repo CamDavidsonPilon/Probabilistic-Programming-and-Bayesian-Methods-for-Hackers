@@ -1,7 +1,7 @@
 #daft drawing for SMS example
 import matplotlib.pyplot as plt
 
-plt.figure( figsize=(12,5) )
+
 
 try:
     import daft
@@ -27,5 +27,5 @@ pgm.add_edge("lambda2", "lambda")
 
 pgm.add_edge("lambda", "obs")
 pgm.render()
-
+plt.figure( figsize=(12,5) )
 plt.show()
