@@ -160,6 +160,8 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Gustav W Delius](https://github.com/gustavdelius)
 -  [Matthew Conlen](http://www.mathisonian.com/) 
 -  [Jim Radford](https://github.com/radford)
+-  [Vannessa Sabino](http://baniverso.com/)
+-  [Thomas Bratt](https://github.com/thomasbratt)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
