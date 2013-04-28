@@ -162,6 +162,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Jim Radford](https://github.com/radford)
 -  [Vannessa Sabino](http://baniverso.com/)
 -  [Thomas Bratt](https://github.com/thomasbratt)
+-  [Nisan Haramati](https://github.com/nisanharamati)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
