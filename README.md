@@ -107,6 +107,8 @@ Installation and configuration
 If you would like to run the IPython notebooks locally, (option 1. above), you'll need to install the following:
 -  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
 -  For Linux users, you should not have a problem installing Numpy, Scipy and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
+   - also recommended, for data-mining exercises, is [PRAW](https://github.com/praw-dev/praw) and [requests](https://github.com/kennethreitz/requests). 
+
 -  In the styles/ directory are a number of files that are customized for the notebook. 
 These are not only designed for the book, but they offer many improvements over the 
 default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.
