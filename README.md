@@ -51,7 +51,7 @@ Interactive notebooks + examples can be downloaded by cloning! )
     - How to sort Reddit comments from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather loss an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb)
-    The introduction of Loss functions and there (awesome) use in Bayesian methods.  Examples include:
+    The introduction of Loss functions and their (awesome) use in Bayesian methods.  Examples include:
     - Solving the Price is Right's Showdown
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition.
