@@ -55,11 +55,11 @@ Interactive notebooks + examples can be downloaded by cloning! )
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition.
     
-* **Chapter 6: Getting our *prior*-ities straight**
-    Probably the most important chapter. We draw on expert opinions to answer questions like:
-    
-    - how do we pick priors?  
+* [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Priors.ipynb)
+    Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
+    - Multi-Armed Bandits and the Bayesian Bandit solution.
     - what is the relationship between data sample size and prior?
+    - estimating financial unknowns using expert priors.
     
     We explore useful tips to be objective in analysis, and common pitfalls of priors. 
    
