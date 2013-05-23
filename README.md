@@ -109,7 +109,6 @@ If you would like to run the IPython notebooks locally, (option 1. above), you'l
 -  In the styles/ directory are a number of files that are customized for the notebook. 
 These are not only designed for the book, but they offer many improvements over the 
 default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.
--  Currently the formatting of the style is not set, so try to follow what has been used so far, but inconsistencies are fine. 
 
 
 
@@ -117,10 +116,7 @@ Development
 ------
 
 This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
-Authors submit content or revisions using the GitHub interface. After a major revision or addition, we collect all the content, compile it to a 
-PDF, and increment the version of *Probabilistic Programming and Bayesian Methods for Hackers*. 
-
-
+Authors submit content or revisions using the GitHub interface. 
 
 ### How to contribute
 
@@ -130,6 +126,8 @@ PDF, and increment the version of *Probabilistic Programming and Bayesian Method
 feel free to start there. 
 -  Cleaning up Python code and making code more PyMC-esque.
 -  Giving better explainations
+-  Spelling/grammer mistakes
+-  Suggestions
 -  Contributing to the IPython notebook styles.
 
 
