@@ -164,6 +164,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Robert Grant](https://github.com/bgrant)
 -  [Yaroslav Halchenko](https://github.com/yarikoptic)
 -  [Alex Garel](https://github.com/alexgarel)
+-  [Oleksandr Lysenko](https://twitter.com/sash_ko)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
