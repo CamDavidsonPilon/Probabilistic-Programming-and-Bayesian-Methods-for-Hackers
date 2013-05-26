@@ -78,7 +78,7 @@ Interactive notebooks + examples can be downloaded by cloning! )
 
     
 **More questions about PyMC?**
-Please post your modeling, convergence, or any other PyMC question on [cross-validated](http://stats.stackexchange.com/), the statistcs stack-exchange.
+Please post your modeling, convergence, or any other PyMC question on [cross-validated](http://stats.stackexchange.com/), the statistics stack-exchange.
     
     
 Using the book
