@@ -163,6 +163,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [Oleksandr Lysenko](https://twitter.com/sash_ko)
 -  [liori](https://github.com/liori)
 -  [ducky427](https://github.com/ducky427)
+-  [Pablo de Oliveira Castro](https://github.com/pablooliveira)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
