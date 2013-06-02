@@ -62,19 +62,15 @@ Interactive notebooks + examples can be downloaded by cloning! )
     - estimating financial unknowns using expert priors.
     
     We explore useful tips to be objective in analysis, and common pitfalls of priors. 
-   
-* **Chapter X1: Bayesian Markov Models**
-    
-* **Chapter X2: Bayesian methods in Machine Learning** 
+       
+* **Chapter X1: Bayesian methods in Machine Learning and Model Validation** 
     We explore how to resolve the overfitting problem plus popular ML methods. Also included are probablistic explainations of Ridge Regression and LASSO Regression.
-    - Bayesian spam filtering plus *how to defeat Bayesian spam filtering*
     - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem 
     
-* **Chapter X3: More PyMC Hackery**
+* **Chapter X2: More PyMC Hackery**
     We explore the gritty details of PyMC. Examples include:
     -  Analysis on real-time GitHub repo stars and forks.
 
-* **Chapter X4: Troubleshooting and debugging**
 
     
 **More questions about PyMC?**
