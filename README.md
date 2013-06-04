@@ -121,8 +121,8 @@ Authors submit content or revisions using the GitHub interface.
 -  The current chapter list is not finalized. If you see something that is missing (MCMC, MAP, Bayesian networks, good prior choices, Potential classes etc.),
 feel free to start there. 
 -  Cleaning up Python code and making code more PyMC-esque.
--  Giving better explainations
--  Spelling/grammer mistakes
+-  Giving better explanations
+-  Spelling/grammar mistakes
 -  Suggestions
 -  Contributing to the IPython notebook styles.
 
