@@ -165,6 +165,7 @@ Thanks to all our contributing authors, including (in chronological order):
 -  [ducky427](https://github.com/ducky427)
 -  [Pablo de Oliveira Castro](https://github.com/pablooliveira)
 -  [sergeyfogelson](https://github.com/sergeyfogelson)
+-  [Mattia Rigotti](http://neurotheory.columbia.edu/~mrigotti/)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
