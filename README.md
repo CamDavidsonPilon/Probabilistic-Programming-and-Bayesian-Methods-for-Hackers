@@ -85,14 +85,14 @@ The book can be read in three different ways, starting from most recommended to 
 1. The most recommended option is to clone the repository to download the .ipynb files to your local machine. If you have IPython installed, you can view the 
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
 this book, though it comes with some dependencies. 
-    -  IPython 0.13 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/)
+    -  IPython v0.13 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/)
     -  For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
     -  In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib and the IPython notebook.
-    -  while technically not required, it may help to run the IPython notebook with `--pylab inline` if you encounter runtime errors.
+    -  while technically not required, it may help to run the IPython notebook with `ipython notebook --pylab inline` flag if you encounter io errors.
 2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
  
-3. **PDF versions are coming.** PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using Chrome's builtin print-to-pdf feature.
+3. **PDF versions are coming.** PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using Chrome's builtin print-to-pdf feature or using the [nbconvert](https://github.com/ipython/nbconvert) utility.
  
 
 Installation and configuration
