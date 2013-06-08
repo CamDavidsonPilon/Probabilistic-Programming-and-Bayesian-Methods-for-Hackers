@@ -85,9 +85,9 @@ The book can be read in three different ways, starting from most recommended to 
 1. The most recommended option is to clone the repository to download the .ipynb files to your local machine. If you have IPython installed, you can view the 
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
 this book, though it comes with some dependencies. 
-    -  IPython v0.13 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/)
+    -  IPython v0.13 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/). IPython notebooks can be run by `(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ ipython notebook`
     -  For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
-    -  In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib and the IPython notebook.
+    -  In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib.
     -  while technically not required, it may help to run the IPython notebook with `ipython notebook --pylab inline` flag if you encounter io errors.
 2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
@@ -138,34 +138,22 @@ Contributions and Thanks
 
 
 Thanks to all our contributing authors, including (in chronological order):
--  [Cameron Davidson-Pilon](http://www.camdp.com)
--  [Stef Gibson](http://stefgibson.com)
--  [Vincent Ohprecio](http://bigsnarf.wordpress.com/)
--  [Lars Buitinck](https://github.com/larsman)
--  [Paul Magwene](http://github.com/pmagwene) 
--  [Matthias Bussonnier](https://github.com/Carreau)
--  [Jens Rantil](https://github.com/JensRantil)
--  [y-p](https://github.com/y-p)
--  [Ethan Brown](http://www.etano.net/)
--  [Jonathan Whitmore](http://jonathanwhitmore.com/)
--  [Mattia Rigotti](https://github.com/matrig)
--  [Colby Lemon](https://github.com/colibius)
--  [Gustav W Delius](https://github.com/gustavdelius)
--  [Matthew Conlen](http://www.mathisonian.com/) 
--  [Jim Radford](https://github.com/radford)
--  [Vannessa Sabino](http://baniverso.com/)
--  [Thomas Bratt](https://github.com/thomasbratt)
--  [Nisan Haramati](https://github.com/nisanharamati)
--  [Thomas Bratt](https://github.com/thomasbratt)
--  [Robert Grant](https://github.com/bgrant)
--  [Yaroslav Halchenko](https://github.com/yarikoptic)
--  [Alex Garel](https://github.com/alexgarel)
--  [Oleksandr Lysenko](https://twitter.com/sash_ko)
--  [liori](https://github.com/liori)
--  [ducky427](https://github.com/ducky427)
--  [Pablo de Oliveira Castro](https://github.com/pablooliveira)
--  [sergeyfogelson](https://github.com/sergeyfogelson)
--  [Mattia Rigotti](http://neurotheory.columbia.edu/~mrigotti/)
+
+
+[Cameron Davidson-Pilon](http://www.camdp.com) |  [Stef Gibson](http://stefgibson.com)
+ [Vincent Ohprecio](http://bigsnarf.wordpress.com/)|[Lars Buitinck](https://github.com/larsman)
+ [Paul Magwene](http://github.com/pmagwene) |  [Matthias Bussonnier](https://github.com/Carreau)
+ [Jens Rantil](https://github.com/JensRantil)|  [y-p](https://github.com/y-p)
+  [Ethan Brown](http://www.etano.net/)|  [Jonathan Whitmore](http://jonathanwhitmore.com/)
+  [Mattia Rigotti](https://github.com/matrig)|  [Colby Lemon](https://github.com/colibius)
+ [Gustav W Delius](https://github.com/gustavdelius)|  [Matthew Conlen](http://www.mathisonian.com/) 
+  [Jim Radford](https://github.com/radford)|  [Vannessa Sabino](http://baniverso.com/)
+ [Thomas Bratt](https://github.com/thomasbratt)|  [Nisan Haramati](https://github.com/nisanharamati)
+  [Thomas Bratt](https://github.com/thomasbratt)|  [Robert Grant](https://github.com/bgrant)
+  [Yaroslav Halchenko](https://github.com/yarikoptic)|  [Alex Garel](https://github.com/alexgarel)
+  [Oleksandr Lysenko](https://twitter.com/sash_ko)|  [liori](https://github.com/liori)
+ [ducky427](https://github.com/ducky427)|  [Pablo de Oliveira Castro](https://github.com/pablooliveira)
+  [sergeyfogelson](https://github.com/sergeyfogelson)|  [Mattia Rigotti](http://neurotheory.columbia.edu/~mrigotti/)
 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
