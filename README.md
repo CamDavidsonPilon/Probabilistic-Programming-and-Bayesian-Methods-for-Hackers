@@ -145,10 +145,10 @@ Authors | | |
 [Paul Magwene](http://github.com/pmagwene) |  [Matthias Bussonnier](https://github.com/Carreau) | [Jens Rantil](https://github.com/JensRantil) |  [y-p](https://github.com/y-p)
 [Ethan Brown](http://www.etano.net/) |  [Jonathan Whitmore](http://jonathanwhitmore.com/) | [Mattia Rigotti](https://github.com/matrig) |  [Colby Lemon](https://github.com/colibius)
 [Gustav W Delius](https://github.com/gustavdelius) |  [Matthew Conlen](http://www.mathisonian.com/)  | [Jim Radford](https://github.com/radford) |  [Vannessa Sabino](http://baniverso.com/)
-[Thomas Bratt](https://github.com/thomasbratt) |  [Nisan Haramati](https://github.com/nisanharamati) |  [Robert Grant](https://github.com/bgrant)
+[Thomas Bratt](https://github.com/thomasbratt) |  [Nisan Haramati](https://github.com/nisanharamati) |  [Robert Grant](https://github.com/bgrant) | [Matthew Wampler-Doty](https://github.com/xcthulhu)
 [Yaroslav Halchenko](https://github.com/yarikoptic) |  [Alex Garel](https://github.com/alexgarel) | [Oleksandr Lysenko](https://twitter.com/sash_ko) |  [liori](https://github.com/liori)
 [ducky427](https://github.com/ducky427) |  [Pablo de Oliveira Castro](https://github.com/pablooliveira) | [sergeyfogelson](https://github.com/sergeyfogelson) |  [Mattia Rigotti](http://neurotheory.columbia.edu/~mrigotti/)
-
+[Matt Bauman](https://github.com/mbauman) | [Andrew Duberstein](http://www.andrewduberstein.com/) |  | 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
 statistics community for building an amazing architecture. 
