@@ -26,7 +26,7 @@ Contents
 
 (The below chapters are rendered via the *nbviewer* at
 [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
-Interactive notebooks + examples can be downloaded by cloning! )
+Interactive notebooks + examples can be downloaded by cloning! 
 
 
 * [**Prologue:**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
@@ -139,7 +139,7 @@ Contributions and Thanks
 
 Thanks to all our contributing authors, including (in chronological order):
 
-Authors | | | 
+Authors | | | |
 --- | --- | --- | ---
 [Cameron Davidson-Pilon](http://www.camdp.com) |  [Stef Gibson](http://stefgibson.com) | [Vincent Ohprecio](http://bigsnarf.wordpress.com/) |[Lars Buitinck](https://github.com/larsman)
 [Paul Magwene](http://github.com/pmagwene) |  [Matthias Bussonnier](https://github.com/Carreau) | [Jens Rantil](https://github.com/JensRantil) |  [y-p](https://github.com/y-p)
