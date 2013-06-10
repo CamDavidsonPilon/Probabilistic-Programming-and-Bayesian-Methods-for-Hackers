@@ -26,7 +26,7 @@ Contents
 
 (The below chapters are rendered via the *nbviewer* at
 [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
-Interactive notebooks + examples can be downloaded by cloning! )
+Interactive notebooks + examples can be downloaded by cloning! 
 
 
 * [**Prologue:**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
@@ -92,7 +92,7 @@ this book, though it comes with some dependencies.
 2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
  
-3. **PDF versions are coming.** PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using Chrome's builtin print-to-pdf feature or using the [nbconvert](https://github.com/ipython/nbconvert) utility.
+3. **PDF versions are available! Look in the PDF/ directory.** PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using Chrome's builtin print-to-pdf feature or using the [nbconvert](https://github.com/ipython/nbconvert) utility.
  
 
 Installation and configuration
@@ -139,7 +139,7 @@ Contributions and Thanks
 
 Thanks to all our contributing authors, including (in chronological order):
 
-Authors | | | 
+Authors | | | |
 --- | --- | --- | ---
 [Cameron Davidson-Pilon](http://www.camdp.com) |  [Stef Gibson](http://stefgibson.com) | [Vincent Ohprecio](http://bigsnarf.wordpress.com/) |[Lars Buitinck](https://github.com/larsman)
 [Paul Magwene](http://github.com/pmagwene) |  [Matthias Bussonnier](https://github.com/Carreau) | [Jens Rantil](https://github.com/JensRantil) |  [y-p](https://github.com/y-p)
