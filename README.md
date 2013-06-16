@@ -1,4 +1,4 @@
-#Bayesian Methods for Hackers
+#[Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 #### *Using Python and PyMC*
 
 
@@ -21,10 +21,15 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy, SciPy and Matplotlib only.
 
 
+
+
 Contents
 ------
 
-(The below chapters are rendered via the *nbviewer* at
+See the project homepage [here](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) for examples, too.
+
+
+The below chapters are rendered via the *nbviewer* at
 [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
 Interactive notebooks + examples can be downloaded by cloning! 
 
