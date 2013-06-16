@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Bayesian Methods for Hackers : An intro to Bayesian methods + probabilistic programming with a computation/understanding-first, mathematics-second point of view. " />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+      <script>
+      $(function() {
+        $( "#accordion" ).accordion({
+        collapsible: true,
+        heightStyle: "content"
+        });
+      });
+      delete($.ui.accordion.prototype._keydown);
+
+      </script>
+    <title>Bayesian Methods for Hackers</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers">View on GitHub</a>
+
+          <h1 id="project_title">Probablistic Programming & Bayesian Methods for Hackers</h1>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2 id="desc">An intro to Bayesian methods and probabilistic programming from a computation/understanding-first, mathematics-second point of view. </h2>
+
+        <div id="TOC">
+           <ol>
+              <li> <a href="#prolouge">Prolouge</a>
+              <li> <a href="#contents">Contents</a> 
+              <li> <a href="#examples">Examples</a>
+              <li> <a href="#using-the-book">Reading and Installation</a>
+              <li> <a href="#development">Development </a>
+            </ol>
+        </div>
+        
+<h2><a name="prolouge" class="anchor" href="#prolouge"><span class="octicon octicon-link"></span></a>Prolouge</h2>
+
+        The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a <em>so-what</em> feeling about Bayesian inference. In fact, this was the author's own prior opinion.</p>
+
+<p>After some recent success of Bayesian methods in machine-learning competitions, I decided to investigate the subject again. Even with my mathematical background, it took me three straight-days of reading examples and trying to put the pieces together to understand the methods. There was simply not enough literature bridging theory to practice. The problem with my misunderstanding was the disconnect between Bayesian mathematics and probabilistic programming. That being said, I suffered then so the reader would not have to now. This book attempts to bridge the gap.</p>
+<div style="float: right; margin-left: 30px;"><img title="created by Stef Gibson at StefGibson.com"style="float: right;margin-left: 0px;width:335px;height:445px;" src="http://i.imgur.com/53m7FWM.png" align=right/></div>
+
+<p>If Bayesian inference is the destination, then mathematical analysis is a particular path to towards it. On the other hand, computing power is cheap enough that we can afford to take an alternate route via probabilistic programming. The latter path is much more useful, as it denies the necessity of mathematical intervention at each step, that is, we remove often-intractable mathematical analysis as a prerequisite to Bayesian inference. Simply put, this latter computational path proceeds via small intermediate jumps from beginning to end, where as the first path proceeds by enormous leaps, often landing far away from our target. Furthermore, without a strong mathematical background, the analysis required by the first path cannot even take place.</p>
+
+<p><em>Bayesian Methods for Hackers</em> is designed as a introduction to Bayesian inference from a computational/understanding-first, and mathematics-second, point of view. Of course as an introductory book, we can only leave it at that: an introductory book. For the mathematically trained, they may cure the curiosity this text generates with other texts designed with mathematical analysis in mind. For the enthusiast with less mathematical-background, or one who is not interested in the mathematics but simply the practice of Bayesian methods, this text should be sufficient and entertaining.</p>
+
+<p>The choice of PyMC as the probabilistic programming language is two-fold. As of this writing, there is currently no central resource for examples and explanations in the PyMC universe. The official documentation assumes prior knowledge of Bayesian inference and probabilistic programming. We hope this book encourages users at every level to look at PyMC. Secondly, with recent core developments and popularity of the scientific stack in Python, PyMC is likely to become a core component soon enough.</p>
+
+<p>PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy, SciPy and Matplotlib only.</p>
+
+<h2>
+<a name="contents" class="anchor" href="#contents"><span class="octicon octicon-link"></span></a>Contents</h2>
+
+<p>(The below chapters are rendered via the <em>nbviewer</em> at
+<a href="http://nbviewer.ipython.org/">nbviewer.ipython.org/</a>, and is read-only and rendered in real-time.
+Interactive notebooks + examples can be downloaded by cloning! </p>
+
+<ul>
+<li><p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb"><strong>Prologue:</strong></a> Why we do it.</p></li>
+<li>
+<p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb"><strong>Chapter 1: Introduction to Bayesian Methods</strong></a>
+Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" </p>
+</li>
+<li>
+<p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb"><strong>Chapter 2: A little more on PyMC</strong></a>
+We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? </p>
+<li>
+<p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb"><strong>Chapter 3: Opening the Black Box of MCMC</strong></a>
+We discuss how MCMC, Markov Chain Monte Carlo, operates and diagnostic tools. </p>
+<li>
+<p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb"><strong>Chapter 4: The Greatest Theorem Never Told</strong></a>
+We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers.</p>
+</li>
+<li>
+<p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb"><strong>Chapter 5: Would you rather lose an arm or a leg?</strong></a>
+The introduction of loss functions and their (awesome) use in Bayesian methods. </p>
+</li>
+<li>
+<p><a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Priors.ipynb"><strong>Chapter 6: Getting our <em>prior</em>-ities straight</strong></a>
+Probably the most important chapter. We examine our prior choices and draw on expert opinions craft priors. </p>
+</li>
+<li>
+<p><strong>Chapter X1: Bayesian methods in Machine Learning and Model Validation</strong> 
+We explore how to resolve the overfitting problem plus popular ML methods.</p>
+
+</li>
+<li>
+<p><strong>Chapter X2: More PyMC Hackery</strong>
+We explore the gritty details of PyMC. </p>
+</li>
+</ul><p><strong>More questions about PyMC?</strong>
+Please post your modeling, convergence, or any other PyMC question on <a href="http://stats.stackexchange.com/">cross-validated</a>, the statistics stack-exchange.</p>
+
+<h2>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples from the book</h2>
+<p> Below are just <strong>some</strong> examples from Bayesian Methods for Hackers. 
+<div id="accordion">
+  <h3>Inferring behaviour changes using SMS message rates</h3>
+  <div>
+    <p>Chapter 1</p>
+
+    <p>
+    By only visually inspecting a noisy stream of daily SMS message rates, it can be difficult to detect a sudden change in the 
+    users's SMS behaviour. In our first probabilistic programming example, we solve the problem by setting up a simple model to detect probable
+    points where the user's behaviour changed, and examine <i>pre</i> and <i>post</i> behaviour. </p>
+    
+    <a href="http://imgur.com/XW5es3V"><img src="http://i.imgur.com/XW5es3V.png" title="Hosted by imgur.com"/></a>
+    
+    </p>
+  </div>
+  
+  <h3> Discovering cheating while maintaing privacy </h3>
+  <div>
+  <p>Chapter 2</p>
+
+  <p> A very simple algorithm can be used to infer proportions of cheaters, while also maintaining the privacy of
+  the population. 
+  <a href="http://imgur.com/wD3oD01"><img src="http://i.imgur.com/wD3oD01.png" title="Hosted by imgur.com" /></a>
+  </p>
+  </div>
+  
+  <h3>Challenger Space Shuttle disaster</h3>
+  <div>
+     <p>Chapter 2</p>
+
+    <p>
+    On January 28, 1986, the twenty-fifth flight of the U.S. space shuttle program ended in disaster when one of the rocket boosters of the Shuttle Challenger exploded shortly after lift-off, killing all seven crew members. The presidential commission on the accident concluded that it was caused by the failure of an O-ring in a field joint on the rocket booster, and that this failure was due to a faulty design that made the O-ring unacceptably sensitive to a number of factors including outside temperature. Of the previous 24 flights, data were available on failures of O-rings on 23, (one was lost at sea), and these data were discussed on the evening preceding the Challenger launch, but unfortunately only the data corresponding to the 7 flights on which there was a damage incident were considered important and these were thought to show no obvious trend. </p>
+    
+    <p> We examine this data in a Bayesian framework and show strong support that a faulty O-ring, caused by low abmient temperatures, was likely the cause of the disaster. </p>
+    <a href="http://imgur.com/tWbXbfZ"><img src="http://i.imgur.com/tWbXbfZ.png" title="Hosted by imgur.com"/></a>
+    </p>
+  </div>
+  <h3> Understanding Bayesian posteriors and MCMC </h3>
+      <div>
+      <p>Chapter 3</p>
+
+      <p>
+      The prior-posterior paradigm is visualized to make understanding the MCMC algorithm more clear. Below we show how two different priors
+      can result in two different posteriors.
+      
+      <a href="http://imgur.com/iXTwpAG"><img src="http://i.imgur.com/iXTwpAG.png" title="Hosted by imgur.com"/></a>
+      </p>
+      </div>
+  
+  <h3>Clustering data</h3>
+  <div>
+    <p>Chapter 3</p>
+
+    <p>
+    
+    Given data, sometimes we wish to ask whether there may be more than one hidden source that's creating it. <i>A priori</i>, it is not
+    always clear this is the case. We introduce a simple model to try to pry data apart into two clusters. </p>
+    <a href="http://imgur.com/CkTHdGM"><img src="http://i.imgur.com/CkTHdGM.png" title="Hosted by imgur.com"/></a>
+    </p>
+    <p> A very important consequence of MCMC is convergence, and understanding trace plots is the first step of diagnosis. 
+    
+    <a href="http://imgur.com/WM1jEg4"><img src="http://i.imgur.com/WM1jEg4.png" title="Hosted by imgur.com"/></a>
+    </p>
+  </div>
+  <h3>Sorting Reddit comments from best to worst</h3>
+  <div>
+    <p>Chapter 4</p>
+
+    <p>
+    Consider ratings on online products: how often do you trust an average 5-star rating if there is only 1 reviewer? 2 reviewers? 3 reviewers? We implicitly understand that with such few reviewers that the average rating is not a good reflection of the true value of the product.
+This has created flaws in how we sort items, and more generally, how we compare items. Many people have realized that sorting online search results by their rating, whether the objects be books, videos, or online comments, return poor results. Often the seemingly top videos or comments have perfect ratings only from a few enthusiastic fans, and truly more quality videos or comments are hidden in later pages with falsely-substandard ratings of around 4.8. How can we correct this?
+    
+    <a href="http://imgur.com/bF4YrBQ"><img src="http://i.imgur.com/bF4YrBQ.png" title="Hosted by imgur.com"/></a>
+   
+   </p>
+  </div>
+  
+  <h3> Solving the <i>Price is Right's</i> Showcase </h3>
+  <div>
+  <p>Chapter 5</p>
+
+  <p>
+  Bless you if you are ever chosen as a contestant on the Price is Right, for here we will show you how to optimize your final price on the Showcase. 
+  <a href="http://imgur.com/72xMLsw"><img src="http://i.imgur.com/72xMLsw.png" title="Hosted by imgur.com"/></a>
+  </p>
+  </div>
+  
+  <h3> Kaggle's Dark World winning solution </h3>
+  <div>
+  <p>Chapter 5</p>
+
+  <p>
+  We implement Tim Salisman's winning solution to the Dark World's contest on the data science website Kaggle. 
+  
+  <a href="http://imgur.com/kEHzaqP"><img src="http://i.imgur.com/kEHzaqP.png" title="Hosted by imgur.com"/></a>
+  </p>
+  </div>
+  
+  <h3> Bayesian Bandits - a solution to the Multi-Armed Bandit problem </h3>
+  <div>
+  <p>Chapter 6</p>
+  <p>
+  Suppose you are faced with N slot machines (colourfully called multi-armed bandits). Each bandit has an unknown probability of distributing a prize (assume for now the prizes are the same for each bandit, only the probabilities differ). Some bandits are very generous, others not so much. Of course, you don't know what these probabilities are. By only choosing one bandit per round, our task is devise a strategy to maximize our winnings.
+  <a href="http://imgur.com/PsbLI6r"><img src="http://i.imgur.com/PsbLI6r.png" title="Hosted by imgur.com" /></a>
+  </p>
+  </div>
+  
+  <h3> Stock Market analysis </h3>
+  <div>
+  <p>Chapter 6</p>
+
+  <p>
+  For decades, finance students have been taught using naive statistical methods to pick stocks. This has caused terrible inference, mostly 
+  caused by two things: temporal parameters and ignoring uncertainty. The first is harder to solve, the second fits right into a Bayesian framework. 
+  <a href="http://imgur.com/a6NVoio"><img src="http://i.imgur.com/a6NVoio.png" title="Hosted by imgur.com"/></a>
+  </p>
+  </div>
+ 
+  
+  
+  
+</div>
+
+<h2>
+<a name="using-the-book" class="anchor" href="#using-the-book"><span class="octicon octicon-link"></span></a>Using the book</h2>
+
+<p>The book can be read in three different ways, starting from most recommended to least recommended: </p>
+
+<ol>
+<li>The most recommended option is to clone the repository to download the .ipynb files to your local machine. If you have IPython installed, you can view the 
+chapters in your browser <em>plus</em> edit and run the code provided (and try some practice questions). This is the preferred option to read
+this book, though it comes with some dependencies. 
+
+<ul>
+<li> IPython v0.13 (or greater) is a requirement to view the ipynb files. It can be downloaded <a href="http://ipython.org/">here</a>. IPython notebooks can be run by <code>(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ ipython notebook</code>
+</li>
+<li> For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out <a href="http://www.lfd.uci.edu/%7Egohlke/pythonlibs/">pre-compiled versions</a> if you have difficulty. </li>
+<li> In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib.</li>
+<li> while technically not required, it may help to run the IPython notebook with <code>ipython notebook --pylab inline</code> flag if you encounter io errors.</li>
+</ul>
+</li>
+<li><p>The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser (<a href="http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb">example</a>).
+The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.</p></li>
+<li><p><strong>PDF versions are available! Look in the PDF/ directory.</strong> PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using Chrome's builtin print-to-pdf feature or using the <a href="https://github.com/ipython/nbconvert">nbconvert</a> utility.</p></li>
+</ol>
+<h3>
+<a name="installation-and-configuration" class="anchor" href="#installation-and-configuration"><span class="octicon octicon-link"></span></a>Installation and configuration</h3>
+
+<p>If you would like to run the IPython notebooks locally, (option 1. above), you'll need to install the following:</p>
+
+<ul>
+<li> IPython 0.13 is a requirement to view the ipynb files. It can be downloaded <a href="http://ipython.org/ipython-doc/dev/install/index.html">here</a>
+</li>
+<li>
+<p>For Linux users, you should not have a problem installing NumPy, SciPy and PyMC. For Windows users, check out <a href="http://www.lfd.uci.edu/%7Egohlke/pythonlibs/">pre-compiled versions</a> if you have difficulty. </p>
+
+<ul>
+<li>also recommended, for data-mining exercises, are <a href="https://github.com/praw-dev/praw">PRAW</a> and <a href="https://github.com/kennethreitz/requests">requests</a>. </li>
+</ul>
+</li>
+<li><p>In the styles/ directory are a number of files that are customized for the notebook. 
+These are not only designed for the book, but they offer many improvements over the 
+default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.</p></li>
+</ul><h2>
+<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h2>
+
+<p>This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
+Authors submit content or revisions using the GitHub interface. </p>
+
+
+<h3>What to contribute?</h3>
+<p>
+<ol>
+<li>The current chapter list is not finalized. If you see something that is missing (MCMC, MAP, Bayesian networks, good prior choices, Potential classes etc.), feel free to start there.
+<li>Cleaning up Python code and making code more PyMC-esque
+<li>Giving better explanations
+<li>Spelling/grammar mistakes
+<li>Suggestions
+<li>Contributing to the IPython notebook styles
+</ol>
+
+<p>We would like to thank the Python community for building an amazing architecture. We would like to thank the 
+statistics community for building an amazing architecture. </p>
+
+<p>Similarly, the book is only possible because of the <a href="http://github.com/pymc-devs/pymc">PyMC</a> library. A big thanks to the core devs of PyMC: Chris Fonnesbeck, Anand Patil, David Huard and John Salvatier.</p>
+
+<p>One final thanks. This book was generated by IPython Notebook, a wonderful tool for developing in Python. We thank the IPython 
+community for developing the Notebook interface. All IPython notebook files are available for download on the GitHub repository. </p>
+
+<h4>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h4>
+
+<p>Contact the main author, Cam Davidson-Pilon at <a href="mailto:cam.davidson.pilon@gmail.com">cam.davidson.pilon@gmail.com</a> or <a href="https://twitter.com/cmrn_dp">@cmrndp</a></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bayesian Methods for Hackers maintained by <a href="https://github.com/CamDavidsonPilon">CamDavidsonPilon</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
