@@ -376,7 +376,7 @@ Full-Width Styles
   border-top:8px solid transparent;
   border-bottom:8px solid transparent;
 
-  border-image: url('/images/larger_border.png') 100% 1 0 stretch;
+  border-image: url('../images/larger_border.png') 100% 1 0 stretch;
 }
 
 #main_content {
@@ -386,7 +386,7 @@ Full-Width Styles
 #footer_wrap {
   border-top:8px solid transparent;
 
-  border-image: url('/images/larger_border.png') 100% 1 0 stretch;
+  border-image: url('../images/larger_border.png') 100% 1 0 stretch;
   background: #212121;
 }
 
