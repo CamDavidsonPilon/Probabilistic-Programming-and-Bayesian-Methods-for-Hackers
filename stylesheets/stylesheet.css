@@ -60,6 +60,11 @@ a:focus {
 Theme Styles
 *******************************************************************************/
 
+.i {
+   font-style:italic;
+   }
+
+
 body {
   box-sizing: border-box;
   color:#373737;
