@@ -29,6 +29,11 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -59,7 +64,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 17px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -81,7 +86,7 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  background: url('../images/test2.png') repeat-x bottom;
 }
 
 h3 {
@@ -113,26 +118,16 @@ a {
   color: #007edf;
   text-shadow: none;
 
-  transition: color 0.5s ease;
-  transition: text-shadow 0.5s ease;
-  -webkit-transition: color 0.5s ease;
-  -webkit-transition: text-shadow 0.5s ease;
-  -moz-transition: color 0.5s ease;
-  -moz-transition: text-shadow 0.5s ease;
-  -o-transition: color 0.5s ease;
-  -o-transition: text-shadow 0.5s ease;
-  -ms-transition: color 0.5s ease;
-  -ms-transition: text-shadow 0.5s ease;
+
 }
 
 #main_content a:hover {
   color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
+  text-decoration: underline;
 }
 
 footer a:hover {
   color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
 }
 
 em {
@@ -204,8 +199,8 @@ ul, ol, dl {
 }
 
 ul li {
-  list-style: inside;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 15px;
 }
 
 ol li {
@@ -216,6 +211,11 @@ ol li {
 dl dt {
   font-weight: bold;
 }
+
+#accordion h3:hover{
+    cursor:pointer;
+}
+
 
 dl dd {
   padding-left: 20px;
@@ -272,7 +272,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 700px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -306,19 +306,30 @@ Full-Width Styles
 }
 
 #project_title {
-  margin: 0;
+  margin: 20px 0px;
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  font-family: 'Computer Modern';
 }
 
-#project_tagline {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
+#desc {
+  font-size: 26px;
+  font-weight: 400;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+    font-family: "Computer Modern";
+
+}
+
+#TOC{
+    font-size: 23px;
+    margin-bottom: 30px;
+        
+}
+
+#TOC ul{
+    list-style-type: square;
 }
 
 #downloads {
@@ -362,8 +373,10 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
+  border-top:8px solid transparent;
+  border-bottom:8px solid transparent;
+
+  border-image: url('/images/test.png') 100% 1 0 stretch;
 }
 
 #main_content {
@@ -371,6 +384,9 @@ Full-Width Styles
 }
 
 #footer_wrap {
+  border-top:8px solid transparent;
+
+  border-image: url('/images/test.png') 100% 1 0 stretch;
   background: #212121;
 }
 
