@@ -116,7 +116,7 @@ Please post your modeling, convergence, or any other PyMC question on <a href="h
 <div id="accordion">
   <h3>Inferring behaviour changes using SMS message rates</h3>
   <div>
-    <p>Chapter 1</p>
+    <p class="i">Chapter 1</p>
 
     <p>
     By only visually inspecting a noisy stream of daily SMS message rates, it can be difficult to detect a sudden change in the 
@@ -130,17 +130,26 @@ Please post your modeling, convergence, or any other PyMC question on <a href="h
   
   <h3> Discovering cheating while maintaing privacy </h3>
   <div>
-  <p>Chapter 2</p>
+  <p class="i">Chapter 2</p>
 
   <p> A very simple algorithm can be used to infer proportions of cheaters, while also maintaining the privacy of
-  the population. 
+  the population. For each participant in the study:
+
+  <ol>
+  <li>Have the user privately flip a coin. If heads, answer "Did you cheat?"truthfully.
+  <li>If tails, flip again. If heads, answer "Yes" regardless of the truth; if tails, answer "No". 
+  </ol>
+
+  This way, the suveyor's do not know whether a cheating confession is a result of cheating or a heads on the second coin flip. But how do we cut through this scheme and perform inference on the true proportion of cheaters? 
+
+
   <a href="http://imgur.com/wD3oD01"><img src="http://i.imgur.com/wD3oD01.png" title="Hosted by imgur.com" /></a>
   </p>
   </div>
   
   <h3>Challenger Space Shuttle disaster</h3>
   <div>
-     <p>Chapter 2</p>
+     <p class="i">Chapter 2</p>
 
     <p>
     On January 28, 1986, the twenty-fifth flight of the U.S. space shuttle program ended in disaster when one of the rocket boosters of the Shuttle Challenger exploded shortly after lift-off, killing all seven crew members. The presidential commission on the accident concluded that it was caused by the failure of an O-ring in a field joint on the rocket booster, and that this failure was due to a faulty design that made the O-ring unacceptably sensitive to a number of factors including outside temperature. Of the previous 24 flights, data were available on failures of O-rings on 23, (one was lost at sea), and these data were discussed on the evening preceding the Challenger launch, but unfortunately only the data corresponding to the 7 flights on which there was a damage incident were considered important and these were thought to show no obvious trend. </p>
@@ -151,10 +160,10 @@ Please post your modeling, convergence, or any other PyMC question on <a href="h
   </div>
   <h3> Understanding Bayesian posteriors and MCMC </h3>
       <div>
-      <p>Chapter 3</p>
+      <p class="i">Chapter 3</p>
 
       <p>
-      The prior-posterior paradigm is visualized to make understanding the MCMC algorithm more clear. Below we show how two different priors
+      The prior-posterior paradigm is visualized to make understanding the MCMC algorithm more clear. For example, below we show how two different priors
       can result in two different posteriors.
       
       <a href="http://imgur.com/iXTwpAG"><img src="http://i.imgur.com/iXTwpAG.png" title="Hosted by imgur.com"/></a>
@@ -163,22 +172,19 @@ Please post your modeling, convergence, or any other PyMC question on <a href="h
   
   <h3>Clustering data</h3>
   <div>
-    <p>Chapter 3</p>
+    <p class="i">Chapter 3</p>
 
     <p>
     
-    Given data, sometimes we wish to ask whether there may be more than one hidden source that's creating it. <i>A priori</i>, it is not
+    Given a dataset, sometimes we wish to ask whether there may be more than one hidden source that created it. <i>A priori</i>, it is not
     always clear this is the case. We introduce a simple model to try to pry data apart into two clusters. </p>
     <a href="http://imgur.com/CkTHdGM"><img src="http://i.imgur.com/CkTHdGM.png" title="Hosted by imgur.com"/></a>
-    </p>
-    <p> A very important consequence of MCMC is convergence, and understanding trace plots is the first step of diagnosis. 
     
-    <a href="http://imgur.com/WM1jEg4"><img src="http://i.imgur.com/WM1jEg4.png" title="Hosted by imgur.com"/></a>
     </p>
   </div>
   <h3>Sorting Reddit comments from best to worst</h3>
   <div>
-    <p>Chapter 4</p>
+    <p class="i">Chapter 4</p>
 
     <p>
     Consider ratings on online products: how often do you trust an average 5-star rating if there is only 1 reviewer? 2 reviewers? 3 reviewers? We implicitly understand that with such few reviewers that the average rating is not a good reflection of the true value of the product.
@@ -189,22 +195,22 @@ This has created flaws in how we sort items, and more generally, how we compare 
    </p>
   </div>
   
-  <h3> Solving the <i>Price is Right's</i> Showcase </h3>
+  <h3> Solving the <span class="i">Price is Right's</span> Showcase </h3>
   <div>
-  <p>Chapter 5</p>
+  <p class="i">Chapter 5</p>
 
   <p>
-  Bless you if you are ever chosen as a contestant on the Price is Right, for here we will show you how to optimize your final price on the Showcase. 
+  Bless you if you are ever chosen as a contestant on the Price is Right, for here we will show you how to optimize your final price on the Showcase. We create a Bayesian model of your best guess and your uncertainty in that guess, and push it through the odd Showdown loss function (closest wins, lose if you bid over). 
   <a href="http://imgur.com/72xMLsw"><img src="http://i.imgur.com/72xMLsw.png" title="Hosted by imgur.com"/></a>
   </p>
   </div>
   
   <h3> Kaggle's Dark World winning solution </h3>
   <div>
-  <p>Chapter 5</p>
+  <p span="i">Chapter 5</p>
 
   <p>
-  We implement Tim Salisman's winning solution to the Dark World's contest on the data science website Kaggle. 
+  We implement Tim Saliman's winning solution to the <a href="http://www.kaggle.com/c/DarkWorlds">Observing Dark World's</a> contest on the data science website Kaggle.  
   
   <a href="http://imgur.com/kEHzaqP"><img src="http://i.imgur.com/kEHzaqP.png" title="Hosted by imgur.com"/></a>
   </p>
@@ -262,20 +268,17 @@ The contents are updated synchronously as commits are made to the book. You can 
 
 <p>If you would like to run the IPython notebooks locally, (option 1. above), you'll need to install the following:</p>
 
-<ul>
+<ol>
 <li> IPython 0.13 is a requirement to view the ipynb files. It can be downloaded <a href="http://ipython.org/ipython-doc/dev/install/index.html">here</a>
 </li>
 <li>
-<p>For Linux users, you should not have a problem installing NumPy, SciPy and PyMC. For Windows users, check out <a href="http://www.lfd.uci.edu/%7Egohlke/pythonlibs/">pre-compiled versions</a> if you have difficulty. </p>
-
-<ul>
-<li>also recommended, for data-mining exercises, are <a href="https://github.com/praw-dev/praw">PRAW</a> and <a href="https://github.com/kennethreitz/requests">requests</a>. </li>
-</ul>
-</li>
+<p>For Linux users, you should not have a problem installing NumPy, SciPy and PyMC. For Windows users, check out <a href="http://www.lfd.uci.edu/%7Egohlke/pythonlibs/">pre-compiled versions</a> if you have difficulty. Also recommended, for data-mining exercises, are <a href="https://github.com/praw-dev/praw">PRAW</a> and <a href="https://github.com/kennethreitz/requests">requests</a>. </li>
 <li><p>In the styles/ directory are a number of files that are customized for the notebook. 
 These are not only designed for the book, but they offer many improvements over the 
 default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.</p></li>
-</ul><h2>
+</ol>
+
+<h2>
 <a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h2>
 
 <p>This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
