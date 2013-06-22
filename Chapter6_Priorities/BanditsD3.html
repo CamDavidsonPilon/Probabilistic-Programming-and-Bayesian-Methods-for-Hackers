@@ -1,0 +1,90 @@
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+       <style type="text/css">
+      
+
+
+
+        .bar{
+          font: 12px sans-serif;
+          text-align: right;
+          padding: 3px;
+          margin: 1px;
+          color: white;
+        }
+        
+        path {
+            stroke-width: 3;
+            fill: none;
+        }
+         
+        line {
+            stroke: black;
+        }
+         
+        text {
+            font-family: Computer Modern, Arial;
+            font-size: 11pt;
+        }
+        
+        button{
+            margin: 6px;
+            width:70px;
+
+            }
+        button:hover{
+            cursor: pointer;
+
+            }
+       .clearfix:after {
+           content: "";
+           display: table;
+           clear: both;
+        }            
+      </style>
+    
+
+     
+
+
+       
+        <div id = "paired-bar-chart"  style="width: 600px; margin: auto;" > </div>
+         <div id ="beta-graphs"  style="width: 600px; margin-left:125px; " > </div>
+  
+
+      
+           
+        <div id="buttons" style="margin:20px auto; width: 300px;">
+            <button id="button1" onClick = "update_arm(0)"> Arm 1</button>
+            <button id="button2" onClick = "update_arm(1)"> Arm 2</button>
+            <button id="button3" onClick = "update_arm(2)"> Arm 3</button>
+            <br/>
+
+            <button  
+                style="width:100px;"
+                onClick = 'bayesian_bandits()' >Run Bayesian Bandits </button>
+            <button id="buttonReveal"  style="width:100px;"  onClick = 'd3.select("#reveal-div").style("display", "block" )' >Reveal probabilities </button>
+        </div>  
+        
+        <div id="reveal-div" style="margin:20px auto; width: 300px; display:none"></div>
+        
+       <div style="margin:auto; width: 400px" >
+
+            <div style="margin: auto;width: 50px"> 
+                <p style="margin: 0px;"> Rewards </p>
+                <p  style="font-size:30pt; margin: 5px;" id="rewards"> 0 </p>
+            </div>            
+
+            <div style="margin: auto; width: 50px"> 
+                <p style="margin: 0px;"> Pulls </p>
+                <p id="pulls" style="margin: 5px;font-size:30pt"> 0 </p>
+            </div>    
+            
+            <div style="margin: auto; width: 50px" > 
+                <p style="margin: 0px;"> Reward/Pull Ratio </p>
+                <p id="ratio" style="margin: 5px;font-size:30pt"> 0 </p>
+            </div>       
+   
+        </div>
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2qhdohtgzszp3yx/d3bandits.js"></script>

@@ -5,7 +5,7 @@
     }
     div.cell{
         width:800px;
-        margin-left:auto;
+        margin-left:16% !important;
         margin-right:auto;
     }
     h1 {
@@ -18,7 +18,7 @@
     div.text_cell_render{
         font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
         line-height: 145%;
-        font-size: 120%;
+        font-size: 130%;
         width:800px;
         margin-left:auto;
         margin-right:auto;
@@ -41,8 +41,7 @@
     
     .warning{
         color: rgb( 240, 20, 20 )
-        }
-       
+        }  
 </style>
 <script>
     MathJax.Hub.Config({
