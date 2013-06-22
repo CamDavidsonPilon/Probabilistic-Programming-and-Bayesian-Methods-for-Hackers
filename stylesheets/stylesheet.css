@@ -219,6 +219,8 @@ dl dt {
 
 #accordion h3:hover{
     cursor:pointer;
+    color: #007edf;
+
 }
 
 
