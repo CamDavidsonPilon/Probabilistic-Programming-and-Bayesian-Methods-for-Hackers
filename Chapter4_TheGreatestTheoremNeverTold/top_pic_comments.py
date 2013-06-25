@@ -6,7 +6,7 @@ from IPython.core.display import Image
 import praw
 
 
-reddit = praw.Reddit("BayesianMethodsForHackers")
+reddit = praw.Reddit("BayesianMethodsForHackers", disable_update_check=True)
 subreddit  = reddit.get_subreddit( "pics" )
 
 top_submissions = subreddit.get_top()
