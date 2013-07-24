@@ -142,6 +142,16 @@ feel free to start there.
 -  All commits are welcome, even if they are minor ;)
 -  If you are unfamiliar with Github, you can email me contributions to the email below.
 
+Reviews
+------
+*these are satirical, but real*
+
+> "No, but it looks good" - [John D. Cook](https://twitter.com/JohnDCook/status/359672133695184896)
+
+> "I ... read this book ... I like it!" - [Andrew Gelman](http://www.andrewgelman.com/2013/07/21/bayes-related)
+
+> "This book is a godsend, and a direct refutation to that "hmph! you don't know maths, piss off!" school of thought...
+The publishing model is so unusual. Not only is it open source but it relies on pull requests from anyone in order to progress the book. This is ingenious and heartening" - [excited Reddit user](http://www.reddit.com/r/Python/comments/1alnal/probabilistic_programming_and_bayesian_methods/)
 
 Contributions and Thanks
 -----
