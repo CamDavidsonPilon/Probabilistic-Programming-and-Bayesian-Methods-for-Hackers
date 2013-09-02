@@ -1,4 +1,4 @@
-#[Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+#[Bayesian Methods for Hackers](http://www.bm4h.com)
 #### *Using Python and PyMC*
 
 
