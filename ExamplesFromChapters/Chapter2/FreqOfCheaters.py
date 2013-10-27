@@ -1,15 +1,15 @@
-import pymc as mc
+import pymc as pm
 
-p = mc.Uniform( "freq_cheating", 0, 1) 
+p = pm.Uniform( "freq_cheating", 0, 1) 
 
-@mc.deterministic
+@pm.deterministic
 def p_skewed( p =  p ):
     return 0.5*p + 0.25
     
-yes_responses = mc.Binomial( "number_cheaters", 100, p_skewed, value = 35, observed = True )
+yes_responses = pm.Binomial( "number_cheaters", 100, p_skewed, value = 35, observed = True )
                                 
-model = mc.Model( [yes_responses, p_skewed, p ] )
+model = pm.Model( [yes_responses, p_skewed, p ] )
 
 ### To Be Explained in Chapter 3!
-mcmc = mc.MCMC(model)
+mcmc = pm.MCMC(model)
 mcmc.sample( 50000, 25000 )
