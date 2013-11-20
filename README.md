@@ -170,7 +170,13 @@ Authors | | | |
 [Thomas Bratt](https://github.com/thomasbratt) |  [Nisan Haramati](https://github.com/nisanharamati) |  [Robert Grant](https://github.com/bgrant) | [Matthew Wampler-Doty](https://github.com/xcthulhu)
 [Yaroslav Halchenko](https://github.com/yarikoptic) |  [Alex Garel](https://github.com/alexgarel) | [Oleksandr Lysenko](https://twitter.com/sash_ko) |  [liori](https://github.com/liori)
 [ducky427](https://github.com/ducky427) |  [Pablo de Oliveira Castro](https://github.com/pablooliveira) | [sergeyfogelson](https://github.com/sergeyfogelson) |  [Mattia Rigotti](http://neurotheory.columbia.edu/~mrigotti/)
-[Matt Bauman](https://github.com/mbauman) | [Andrew Duberstein](http://www.andrewduberstein.com/) |  | 
+[Matt Bauman](https://github.com/mbauman) | [Andrew Duberstein](http://www.andrewduberstein.com/) | [Carsten Brandt](http://cebe.cc/) |  [Bob Jansen](http://web2docx.com)
+ [ugurthemaster](https://github.com/ugurthemaster)   | [William Scott](https://github.com/williamscott)   |  [Min RK](http://twitter.com/minrk)  |  [Bulwersator](https://github.com/Bulwersator)
+  [elpres](https://github.com/elpres)  |  [Augusto Hack](https://github.com/hackaugusto)  | [Michael Feldmann](https://github.com/michaf)   | [Youki](https://github.com/Youki)
+   [Jens Rantil](http://jensrantil.github.io) |  [Kyle Meyer](http://kyleam.com)  |  [Eric Martin](http://ericmart.in)  | [Inconditus](https://github.com/Inconditus)
+ [Kleptine](https://github.com/Kleptine)   |  [Stuart Layton](https://github.com/slayton)  |  [Antonino Ingargiola](https://github.com/tritemio)  |  [vsl9](https://github.com/vsl9)
+  [Tom Christie](https://github.com/tom-christie)  |  [bclow](https://github.com/bclow)  |  [Simon Potter](http://sjp.co.nz/)  | [Garth Snyder](https://github.com/GarthSnyder)
+ [Daniel Beauchamp](http://twitter.com/pushmatrix)  |  [Philipp Singer](http://www.philippsinger.info)  | [gbenmartin](https://github.com/gbenmartin) | 
 
 We would like to thank the Python community for building an amazing architecture. We would like to thank the 
 statistics community for building an amazing architecture. 
