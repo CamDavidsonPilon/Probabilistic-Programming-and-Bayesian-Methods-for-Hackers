@@ -10,7 +10,7 @@ import numpy as np
 
 def separation_plot( p, y, **kwargs ):
     """
-    This function creates a separation plot for logitisc and probit classification. 
+    This function creates a separation plot for logistic and probit classification. 
     See http://mdwardlab.com/sites/default/files/GreenhillWardSacks.pdf
     
     p: The proportions/probabilities, can be a nxM matrix which represents M models.
