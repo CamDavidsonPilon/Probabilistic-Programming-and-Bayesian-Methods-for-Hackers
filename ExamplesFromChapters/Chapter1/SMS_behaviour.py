@@ -16,7 +16,7 @@ tau = pm.DiscreteUniform( "tau", lower = 0, upper = n_count_data )
 def lambda_( tau = tau, lambda_1 = lambda_1, lambda_2 = lambda_2 ):
     out = np.zeros( n_count_data )  
     out[:tau] = lambda_1 #lambda before tau is lambda1
-    out[tau:] = lambda_2 #lambda after tau is lambda1
+    out[tau:] = lambda_2 #lambda after tau is lambda2
     return out
     
 observation = pm.Poisson( "obs", lambda_, value = count_data, observed = True)
