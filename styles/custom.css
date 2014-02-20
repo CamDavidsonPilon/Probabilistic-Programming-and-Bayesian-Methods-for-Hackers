@@ -13,6 +13,12 @@
         font-style: oblique;
         src: url('http://ctan.mirror.rafal.ca/fonts/cm-unicode/fonts/otf/cmunsi.otf');
     }
+    @font-face {
+        font-family: "Computer Modern";
+        font-weight: bold;
+        font-style: oblique;
+        src: url('http://ctan.mirror.rafal.ca/fonts/cm-unicode/fonts/otf/cmunso.otf');
+    }
     div.cell{
         width:800px;
         margin-left:16% !important;
