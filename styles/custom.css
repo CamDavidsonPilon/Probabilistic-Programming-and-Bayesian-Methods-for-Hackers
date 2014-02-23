@@ -1,7 +1,23 @@
 <style>
     @font-face {
         font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunss.otf');
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        font-weight: bold;
+        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunsx.otf');
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        font-style: oblique;
+        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunsi.otf');
+    }
+    @font-face {
+        font-family: "Computer Modern";
+        font-weight: bold;
+        font-style: oblique;
+        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunso.otf');
     }
     div.cell{
         width:800px;
