@@ -1,3 +1,4 @@
+import numpy as np
 import pymc as pm
 
 
@@ -8,7 +9,7 @@ p = pm.Uniform( "p", 0, 1)
 
 assignment = pm.Categorical("assignment", [p, 1-p], size = data.shape[0] ) 
 
-taus = 1.0/mc.Uniform( "stds", 0, 100, size= 2)**2 #notice the size!
+taus = 1.0/pm.Uniform( "stds", 0, 100, size= 2)**2 #notice the size!
 centers = pm.Normal( "centers", [150, 150], [0.001, 0.001], size =2 )
 
 """
