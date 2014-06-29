@@ -21,7 +21,6 @@ import numpy as np
 from requests import get
 
 
-
 MAX = 8000000
 today =  datetime.datetime.today()
 randint = np.random.randint
@@ -56,8 +55,6 @@ for i in xrange(N):
             is_valid_language = True
         except:
             pass
-        
-    
 
     #languages 
     X[ i, language_mappings[ repo_results["language" ] ] ] = 1
@@ -84,6 +81,3 @@ for i in xrange(N):
     print 
     
 np.savetxt("data/github_data.csv", X, delimiter=",", fmt="%d" )
-    
-
-
