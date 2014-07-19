@@ -36,16 +36,17 @@ def separation_plot( p, y, **kwargs ):
         ax = fig.add_subplot(M, 1, i+1)
         ix = np.argsort( p[:,i] )
         #plot the different bars
-        bars = ax.bar( np.arange(n), np.ones(n), width=1., 
+        bars = ax.bar( np.arange(n), np.ones(n), width=1.,
+                align = 'center',
                 color = colors_bmh[ y[ix].astype(int) ], 
                 edgecolor = 'none')
-        ax.plot( np.arange(n), p[ix,i], "k", 
-                linewidth = 1.,drawstyle="steps-post" )
+        ax.plot( np.arange(n+1)-0.5, np.append(p[ix,i], p[ix,i][-1]), "k",
+                 linewidth = 1.,drawstyle="steps-post" )
         #create expected value bar.
         ax.vlines( [(1-p[ix,i]).sum()], [0], [1] )
         #ax.grid(False)
         #ax.axis('off')
-        plt.xlim( 0, n-1)
+        plt.xlim( -0.5, n-1+0.5)
         
     plt.tight_layout()
     
