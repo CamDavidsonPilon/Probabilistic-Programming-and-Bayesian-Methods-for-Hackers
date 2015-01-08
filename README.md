@@ -35,31 +35,31 @@ Interactive notebooks + examples can be downloaded by cloning!
 
 * [**Prologue:**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
 
-* [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)
+* [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1.ipynb)
     Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" Examples include:
     - Inferring human behaviour changes from text message rates
     
-* [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/MorePyMC.ipynb)
+* [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Chapter2.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Detecting the frequency of cheating students, while avoiding liars
     - Calculating probabilities of the Challenger space-shuttle disaster
     
-* [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/IntroMCMC.ipynb)
+* [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Chapter3.ipynb)
     We discuss how MCMC operates and diagnostic tools. Examples include:
     - Bayesian clustering with mixture models
     
-* [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/LawOfLargeNumbers.ipynb)
+* [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Chapter4.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
     - How to sort Reddit comments from best to worst (not as easy as you think)
     
-* [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/LossFunctions.ipynb)
+* [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Chapter5.ipynb)
     The introduction of loss functions and their (awesome) use in Bayesian methods.  Examples include:
     - Solving the *Price is Right*'s Showdown
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition
     
-* [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Priors.ipynb)
+* [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Chapter6.ipynb)
     Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
     - Multi-Armed Bandits and the Bayesian Bandit solution.
     - What is the relationship between data sample size and prior?
