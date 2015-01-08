@@ -1,5 +1,4 @@
-workon data
-cd Chapter1_Introduction/ && ipython nbconvert Chapter1.ipynb --to latex --post PDF  --template article
+gcd Chapter1_Introduction/ && ipython nbconvert Chapter1.ipynb --to latex --post PDF  --template article
 cd ../Chapter2_MorePyMC/ && ipython nbconvert Chapter2.ipynb --to latex --post PDF --template article
 cd ../Chapter3_MCMC/ && ipython nbconvert Chapter3.ipynb --to latex --post PDF --template article
 cd ../Chapter4_TheGreatestTheoremNeverTold/ && ipython nbconvert Chapter4.ipynb --to latex --post PDF --template article
