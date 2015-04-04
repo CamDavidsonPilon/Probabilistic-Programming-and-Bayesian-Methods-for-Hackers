@@ -1,0 +1,12 @@
+
+Possition 	Nation 	Games 	Points 	Tries 	Table
+points
+P:q
+layed 	Won 	Drawn 	Lost 	For 	Against 	Difference
+1 	 Ireland 	5 	4 	0 	1 	132 	49 	+83 	16 	8
+2 	 England 	5 	4 	0 	1 	138 	65 	+73 	14 	8
+3 	 Wales 	5 	3 	0 	2 	122 	79 	+43 	11 	6
+4 	 France 	5 	3 	0 	2 	101 	100 	+1 	9 	6
+5 	 Scotland 	5 	1 	0 	4 	47 	138 	−91 	4 	2
+6 	 Italy 	5 	0 	0 	5 	63 	172 	−109 	7 	0
+
