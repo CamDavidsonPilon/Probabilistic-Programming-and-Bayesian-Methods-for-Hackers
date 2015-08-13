@@ -1,11 +1,8 @@
 #[Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+
 #### *Using Python and PyMC*
 
-
-
-
 The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a *so-what* feeling about Bayesian inference. In fact, this was the author's own prior opinion.
-
 
 <div style="float: right; margin-left: 30px;"><img title="created by Stef Gibson at StefGibson.com"style="float: right;margin-left: 30px;" src="http://i.imgur.com/6DKYbPb.png?1" align=right height = 350 /></div>
 
@@ -20,17 +17,14 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy, SciPy and Matplotlib only.
 
 
-
-
-Contents
-------
+# Contents
 
 See the project homepage [here](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) for examples, too.
 
 
 The below chapters are rendered via the *nbviewer* at
 [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
-Interactive notebooks + examples can be downloaded by cloning! 
+Interactive notebooks + examples can be downloaded by cloning!
 
 
 * [**Prologue:**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
@@ -38,111 +32,106 @@ Interactive notebooks + examples can be downloaded by cloning!
 * [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1.ipynb)
     Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" Examples include:
     - Inferring human behaviour changes from text message rates
-    
+
 * [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Chapter2.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Detecting the frequency of cheating students, while avoiding liars
     - Calculating probabilities of the Challenger space-shuttle disaster
-    
+
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Chapter3.ipynb)
     We discuss how MCMC operates and diagnostic tools. Examples include:
     - Bayesian clustering with mixture models
-    
+
 * [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Chapter4.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
     - How to sort Reddit comments from best to worst (not as easy as you think)
-    
+
 * [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Chapter5.ipynb)
     The introduction of loss functions and their (awesome) use in Bayesian methods.  Examples include:
     - Solving the *Price is Right*'s Showdown
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition
-    
+
 * [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Chapter6.ipynb)
     Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
     - Multi-Armed Bandits and the Bayesian Bandit solution.
     - What is the relationship between data sample size and prior?
     - Estimating financial unknowns using expert priors
-    
-    We explore useful tips to be objective in analysis as well as common pitfalls of priors. 
-       
-* **Chapter X1: Bayesian methods in Machine Learning and Model Validation** 
+
+    We explore useful tips to be objective in analysis as well as common pitfalls of priors.
+
+* **Chapter X1: Bayesian methods in Machine Learning and Model Validation**
     We explore how to resolve the overfitting problem plus popular ML methods. Also included are probablistic explainations of ridge regression and LASSO regression.
-    - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem 
-    
+    - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem
+
 * **Chapter X2: More PyMC Hackery**
     We explore the gritty details of PyMC. Examples include:
     -  Analysis on real-time GitHub repo stars and forks.
 
 
-    
 **More questions about PyMC?**
 Please post your modeling, convergence, or any other PyMC question on [cross-validated](http://stats.stackexchange.com/), the statistics stack-exchange.
-    
-    
-Using the book
--------
 
-The book can be read in three different ways, starting from most recommended to least recommended: 
 
-1. The most recommended option is to clone the repository to download the .ipynb files to your local machine. If you have IPython installed, you can view the 
+# Using the book
+
+
+The book can be read in three different ways, starting from most recommended to least recommended:
+
+1. The most recommended option is to clone the repository to download the .ipynb files to your local machine. If you have IPython installed, you can view the
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
-this book, though it comes with some dependencies. 
-    -  IPython v0.13 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/). IPython notebooks can be run by `(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ ipython notebook`
-    -  For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
+this book, though it comes with some dependencies.
+    -  IPython v3.2 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/). IPython notebooks can be run by `(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ ipython notebook`
+    -  For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty.
     -  In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib.
 2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1_Introduction.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
- 
-3. PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using the [nbconvert](https://github.com/ipython/nbconvert) utility.
- 
 
-Installation and configuration
-------
+3. PDFs are the least-prefered method to read the book, as pdf's are static and non-interactive. If PDFs are desired, they can be created dynamically using the [nbconvert](https://github.com/ipython/nbconvert) utility.
+
+
+# Installation and configuration
 
 
 If you would like to run the IPython notebooks locally, (option 1. above), you'll need to install the following:
 
--  IPython 0.13+ is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html) 
-- Necessary packages are PyMC 2.2, NumPy, SciPy and Matplotlib.   
+-  IPython 3.2 is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html)
+- Necessary packages are PyMC 3.0, NumPy, SciPy and Matplotlib.
    -  For Linux/OSX users, you should not have a problem installing the above, [*except for Matplotlib on OSX*](http://www.penandpants.com/2012/02/24/install-python/).
-   -  For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
-   - also recommended, for data-mining exercises, are [PRAW](https://github.com/praw-dev/praw) and [requests](https://github.com/kennethreitz/requests). 
-- New to Python or IPython, and help with the namespaces? Check out [this answer](http://stackoverflow.com/questions/12987624/confusion-between-numpy-scipy-matplotlib-and-pylab). 
+   -  For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty.
+   - also recommended, for data-mining exercises, are [PRAW](https://github.com/praw-dev/praw) and [requests](https://github.com/kennethreitz/requests).
+   - another great alternative is to use Anaconda distribution to install Python on your system (Windows, OSX and Linux users) : https://store.continuum.io/cshop/anaconda/
+- New to Python or IPython, and help with the namespaces? Check out [this answer](http://stackoverflow.com/questions/12987624/confusion-between-numpy-scipy-matplotlib-and-pylab).
 
--  In the styles/ directory are a number of files that are customized for the notebook. 
-These are not only designed for the book, but they offer many improvements over the 
+-  In the styles/ directory are a number of files that are customized for the notebook.
+These are not only designed for the book, but they offer many improvements over the
 default settings of matplotlib and the IPython notebook. The in notebook style has not been finalized yet.
 
+# Development
 
-
-Development
-------
-
-This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
-Authors submit content or revisions using the GitHub interface. 
+This book has an unusual development design. The content is open-sourced, meaning anyone can be an author.
+Authors submit content or revisions using the GitHub interface.
 
 ### How to contribute
 
-####What to contribute?
+#### What to contribute?
 
 -  The current chapter list is not finalized. If you see something that is missing (MCMC, MAP, Bayesian networks, good prior choices, Potential classes etc.),
-feel free to start there. 
+feel free to start there.
 -  Cleaning up Python code and making code more PyMC-esque
 -  Giving better explanations
 -  Spelling/grammar mistakes
 -  Suggestions
 -  Contributing to the IPython notebook styles
 
-
-####Commiting
+#### Commiting
 
 -  All commits are welcome, even if they are minor ;)
 -  If you are unfamiliar with Github, you can email me contributions to the email below.
 
-Reviews
-------
+# Reviews
+
 *these are satirical, but real*
 
 "No, but it looks good" - [John D. Cook](https://twitter.com/JohnDCook/status/359672133695184896)
@@ -152,11 +141,7 @@ Reviews
 "This book is a godsend, and a direct refutation to that 'hmph! you don't know maths, piss off!' school of thought...
 The publishing model is so unusual. Not only is it open source but it relies on pull requests from anyone in order to progress the book. This is ingenious and heartening" - [excited Reddit user](http://www.reddit.com/r/Python/comments/1alnal/probabilistic_programming_and_bayesian_methods/)
 
-
-
-Contributions and Thanks
------
-
+# Contributions and Thanks
 
 Thanks to all our contributing authors, including (in chronological order):
 
@@ -175,20 +160,17 @@ Authors | | | |
    [Jens Rantil](http://jensrantil.github.io) |  [Kyle Meyer](http://kyleam.com)  |  [Eric Martin](http://ericmart.in)  | [Inconditus](https://github.com/Inconditus)
  [Kleptine](https://github.com/Kleptine)   |  [Stuart Layton](https://github.com/slayton)  |  [Antonino Ingargiola](https://github.com/tritemio)  |  [vsl9](https://github.com/vsl9)
   [Tom Christie](https://github.com/tom-christie)  |  [bclow](https://github.com/bclow)  |  [Simon Potter](http://sjp.co.nz/)  | [Garth Snyder](https://github.com/GarthSnyder)
- [Daniel Beauchamp](http://twitter.com/pushmatrix)  |  [Philipp Singer](http://www.philippsinger.info)  | [gbenmartin](https://github.com/gbenmartin) | 
+ [Daniel Beauchamp](http://twitter.com/pushmatrix)  |  [Philipp Singer](http://www.philippsinger.info)  | [gbenmartin](https://github.com/gbenmartin) | [Peadar Coyle](https://twitter.com/Springcoil)
 
-We would like to thank the Python community for building an amazing architecture. We would like to thank the 
-statistics community for building an amazing architecture. 
+We would like to thank the Python community for building an amazing architecture. We would like to thank the
+statistics community for building an amazing architecture.
 
 Similarly, the book is only possible because of the [PyMC](http://github.com/pymc-devs/pymc) library. A big thanks to the core devs of PyMC: Chris Fonnesbeck, Anand Patil, David Huard and John Salvatier.
 
-One final thanks. This book was generated by IPython Notebook, a wonderful tool for developing in Python. We thank the IPython 
-community for developing the Notebook interface. All IPython notebook files are available for download on the GitHub repository. 
+One final thanks. This book was generated by IPython Notebook, a wonderful tool for developing in Python. We thank the IPython
+community for developing the Notebook interface. All IPython notebook files are available for download on the GitHub repository.
 
-
-
-####Contact
+#### Contact
 Contact the main author, Cam Davidson-Pilon at cam.davidson.pilon@gmail.com or [@cmrndp](https://twitter.com/cmrn_dp)
-
 
 ![Imgur](http://i.imgur.com/Zb79QZb.png)
