@@ -12,7 +12,7 @@ subreddit  = reddit.get_subreddit( "pics" )
 top_submissions = subreddit.get_top()
 
 
-n_pic = int( sys.argv[1] ) if sys.argv[1] else 1
+n_pic = int( sys.argv[1] ) if len(sys.argv) > 1 else 1
 
 i = 0
 while i < n_pic:
@@ -39,25 +39,25 @@ for comment in _all_comments:
                 contents.append( comment.body )
             except Exception as e:
                 continue
-                
+
 votes = np.array( [ upvotes, downvotes] ).T
 
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
