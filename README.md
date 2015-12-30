@@ -2,12 +2,10 @@
 #### *Using Python and PyMC*
 
 
-
-
 The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a *so-what* feeling about Bayesian inference. In fact, this was the author's own prior opinion.
 
 
-<div style="float: right; margin-left: 30px;"><img title="created by Stef Gibson at StefGibson.com"style="float: right;margin-left: 30px;" src="http://i.imgur.com/6DKYbPb.png?1" align=right height = 350 /></div>
+<div style="float: right; margin-left: 30px;"><img title="created by Stef Gibson"style="float: right;margin-left: 30px;" src="http://i.imgur.com/6DKYbPb.png?1" align=right height = 350 /></div>
 
 After some recent success of Bayesian methods in machine-learning competitions, I decided to investigate the subject again. Even with my mathematical background, it took me three straight-days of reading examples and trying to put the pieces together to understand the methods. There was simply not enough literature bridging theory to practice. The problem with my misunderstanding was the disconnect between Bayesian mathematics and probabilistic programming. That being said, I suffered then so the reader would not have to now. This book attempts to bridge the gap.
 
@@ -20,6 +18,17 @@ The choice of PyMC as the probabilistic programming language is two-fold. As of 
 PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy, SciPy and Matplotlib only.
 
 
+Printed Version by Addison-Wesley
+------
+
+**Bayesian Methods for Hackers is now available as a printed book!** You can pick up a copy on [Amazon](http://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838). What are the differences between the online version and the printed version?
+
+<div style="float: right; margin-left: 30px;"><img title="created by Stef Gibson"style="float: right;margin-left: 30px;" src="http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0133902838.jpg" align=right height = 350 /></div>
+
+ - Additional Chapter on Bayesian A/B testing
+ - Updated examples
+ - Answers to the end of chapter questions
+ - Additional explaination, and rewritten sections to aid the reader. 
 
 
 Contents
