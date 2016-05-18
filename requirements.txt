@@ -1,4 +1,4 @@
-ipython>=0.13.2
+ipython>=2.0
 matplotlib>=1.2.1
 numpy>=1.7.1
 pymc==2.3.4
