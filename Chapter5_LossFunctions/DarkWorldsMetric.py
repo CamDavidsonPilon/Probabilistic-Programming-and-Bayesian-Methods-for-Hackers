@@ -58,7 +58,7 @@ def calc_delta_r(x_predicted,y_predicted,x_true,y_true):
     for  perm in it.permutations(a[num_halos-2],num_halos):
         which_true_halos=[]
         which_predicted_halos=[]
-        for j in xrange(num_halos): #loop through all the true halos with the
+        for j in range(num_halos): #loop through all the true halos with the
 
             distances_perm[count,j]=np.sqrt((x_true[j]-x_predicted[int(perm[j])])**2\
                                       +(y_true[j]-y_predicted[int(perm[j])])**2)
@@ -141,7 +141,7 @@ def convert_to_360(angle, x_in, y_in):
         theta: the angle in the range 0:2pi
     """
     n = len(x_in)
-    for i in xrange(n):
+    for i in range(n):
         if x_in[i] < 0 and y_in[i] > 0:
             angle[i] = angle[i]+mt.pi
         elif x_in[i] < 0 and y_in[i] < 0:
@@ -204,7 +204,7 @@ def main_score( nhalo_all, x_true_all, y_true_all, x_ref_all, y_ref_all, sky_pre
                     
         x_predicted=np.array([],dtype=float)
         y_predicted=np.array([],dtype=float)
-        for i in xrange(nhalo):
+        for i in range(nhalo):
             x_predicted=np.append(x_predicted,float(sky[0])) #get the predicted values
             y_predicted=np.append(y_predicted,float(sky[1]))
             #The solution file for the test data provides masses 
@@ -271,9 +271,9 @@ def main_score( nhalo_all, x_true_all, y_true_all, x_ref_all, y_ref_all, sky_pre
     W1=1./1000. #Weight the av_r such that < 1 is a good score > 1 is not so good.
     W2=1.
     metric = W1*av_r + W2*angle_vec #Weighted metric, weights TBD
-    print 'Your average distance in pixels you are away from the true halo is', av_r
-    print 'Your average angular vector is', angle_vec
-    print 'Your score for the training data is', metric
+    print('Your average distance in pixels you are away from the true halo is', av_r)
+    print('Your average angular vector is', angle_vec)
+    print('Your score for the training data is', metric)
     return metric
     
     
@@ -316,10 +316,9 @@ def main(user_fname, fname):
                                                          #first input would be
                                                          #a float, if succeed it
                                                          #is not a header
-        print 'THE INPUT FILE DOES NOT APPEAR TO HAVE A HEADER'
+        print('THE INPUT FILE DOES NOT APPEAR TO HAVE A HEADER')
     except :
-        print 'THE INPUT FILE APPEARS TO HAVE A HEADER, SKIPPING THE FIRST LINE'
-
+        print('THE INPUT FILE APPEARS TO HAVE A HEADER, SKIPPING THE FIRST LINE')
         skip_header = sky_prediction.next()
         
 
@@ -331,7 +330,7 @@ def main(user_fname, fname):
         if does_it_exist > 0: #If it does then find the matching solutions to the sky_id
                             selectskyinsolutions=true_sky_id.index(sky_id)-1
         else: #Otherwise exit
-            print 'Sky_id does not exist, formatting problem: ',sky_id
+            print('Sky_id does not exist, formatting problem: ',sky_id)
             sys.exit(2)
 
 
@@ -342,7 +341,7 @@ def main(user_fname, fname):
                     
         x_predicted=np.array([],dtype=float)
         y_predicted=np.array([],dtype=float)
-        for i in xrange(nhalo):
+        for i in range(nhalo):
             x_predicted=np.append(x_predicted,float(sky[2*i+1])) #get the predicted values
             y_predicted=np.append(y_predicted,float(sky[2*i+2]))
             #The solution file for the test data provides masses 
@@ -409,9 +408,9 @@ def main(user_fname, fname):
     W1=1./1000. #Weight the av_r such that < 1 is a good score > 1 is not so good.
     W2=1.
     metric = W1*av_r + W2*angle_vec #Weighted metric, weights TBD
-    print 'Your average distance in pixels you are away from the true halo is', av_r
-    print 'Your average angular vector is', angle_vec
-    print 'Your score for the training data is', metric
+    print('Your average distance in pixels you are away from the true halo is', av_r)
+    print('Your average angular vector is', angle_vec)
+    print('Your score for the training data is', metric)
 
 
 if __name__ == "__main__":
