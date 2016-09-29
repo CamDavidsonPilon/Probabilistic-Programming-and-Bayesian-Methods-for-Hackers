@@ -29,7 +29,7 @@ def separation_plot( p, y, **kwargs ):
     colors_bmh = np.array( ["#eeeeee", "#348ABD"] )
 
 
-    fig = plt.figure( )#figsize = (8, 1.3*M) )
+    fig = plt.figure( )
     
     for i in range(M):
         ax = fig.add_subplot(M, 1, i+1)
