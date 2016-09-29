@@ -7,7 +7,7 @@ import praw
 
 
 reddit = praw.Reddit("BayesianMethodsForHackers")
-subreddit  = reddit.get_subreddit( "crazyideas" )
+subreddit  = reddit.get_subreddit("showerthoughts")
 
 top_submissions = subreddit.get_top(limit=100)
 
