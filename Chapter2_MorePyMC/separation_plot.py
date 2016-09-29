@@ -26,7 +26,6 @@ def separation_plot( p, y, **kwargs ):
         p = p.reshape( n, 1 )
         M = p.shape[1]
 
-    #colors = np.array( ["#fdf2db", "#e44a32"] )
     colors_bmh = np.array( ["#eeeeee", "#348ABD"] )
 
 
@@ -43,8 +42,6 @@ def separation_plot( p, y, **kwargs ):
                  linewidth = 1.,drawstyle="steps-post" )
         #create expected value bar.
         ax.vlines( [(1-p[ix,i]).sum()], [0], [1] )
-        #ax.grid(False)
-        #ax.axis('off')
         plt.xlim( 0, n)
         
     plt.tight_layout()
