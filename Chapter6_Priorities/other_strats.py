@@ -3,7 +3,6 @@
 
 import scipy.stats as stats
 import numpy as np
-#from pymc import rbeta
 
 rand = np.random.rand
 beta = stats.beta
