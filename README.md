@@ -40,6 +40,7 @@ The below chapters are rendered via the *nbviewer* at
 [nbviewer.ipython.org/](http://nbviewer.ipython.org/), and is read-only and rendered in real-time.
 Interactive notebooks + examples can be downloaded by cloning! 
 
+#### PyMC3
 
 * [**Prologue:**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
 
@@ -74,14 +75,43 @@ Interactive notebooks + examples can be downloaded by cloning!
     - Estimating financial unknowns using expert priors
     
     We explore useful tips to be objective in analysis as well as common pitfalls of priors. 
-       
-* **Chapter X1: Bayesian methods in Machine Learning and Model Validation** 
-    We explore how to resolve the overfitting problem plus popular ML methods. Also included are probablistic explainations of ridge regression and LASSO regression.
-    - Tim Saliman's winning solution to Kaggle's *Don't Overfit* problem 
+
+### PyMC3
+
+* [**Prologue:**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
+
+* [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)
+    Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" Examples include:
+    - Inferring human behaviour changes from text message rates
     
-* **Chapter X2: More PyMC Hackery**
-    We explore the gritty details of PyMC. Examples include:
-    -  Analysis on real-time GitHub repo stars and forks.
+* [**Chapter 2: A little more on PyMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC3.ipynb)
+    We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
+    - Detecting the frequency of cheating students, while avoiding liars
+    - Calculating probabilities of the Challenger space-shuttle disaster
+    
+* [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb)
+    We discuss how MCMC operates and diagnostic tools. Examples include:
+    - Bayesian clustering with mixture models
+    
+* [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC3.ipynb)
+    We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
+    - Exploring a Kaggle dataset and the pitfalls of naive analysis
+    - How to sort Reddit comments from best to worst (not as easy as you think)
+    
+* [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC3.ipynb)
+    The introduction of loss functions and their (awesome) use in Bayesian methods.  Examples include:
+    - Solving the *Price is Right*'s Showdown
+    - Optimizing financial predictions
+    - Winning solution to the Kaggle Dark World's competition
+    
+* [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC3.ipynb)
+    Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
+    - Multi-Armed Bandits and the Bayesian Bandit solution.
+    - What is the relationship between data sample size and prior?
+    - Estimating financial unknowns using expert priors
+    
+    We explore useful tips to be objective in analysis as well as common pitfalls of priors. 
+
 
 
     
@@ -97,7 +127,7 @@ The book can be read in three different ways, starting from most recommended to 
 1. The most recommended option is to clone the repository to download the .ipynb files to your local machine. If you have IPython installed, you can view the 
 chapters in your browser *plus* edit and run the code provided (and try some practice questions). This is the preferred option to read
 this book, though it comes with some dependencies. 
-    -  IPython v0.13 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/). IPython notebooks can be run by `(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ ipython notebook`
+    -  IPython v2.0 (or greater) is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/). IPython notebooks can be run by `(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ ipython notebook`
     -  For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
     -  In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib.
 2. The second, preferred, option is to use the nbviewer.ipython.org site, which display IPython notebooks in the browser ([example](http://nbviewer.ipython.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1.ipynb)).
@@ -112,8 +142,8 @@ Installation and configuration
 
 If you would like to run the IPython notebooks locally, (option 1. above), you'll need to install the following:
 
--  IPython 0.13+ is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html) 
-- Necessary packages are PyMC 2.2, NumPy, SciPy and Matplotlib.   
+-  IPython 2.0+ is a requirement to view the ipynb files. It can be downloaded [here](http://ipython.org/ipython-doc/dev/install/index.html) 
+- Necessary packages are PyMC, NumPy, SciPy and Matplotlib.   
    -  For Linux/OSX users, you should not have a problem installing the above, [*except for Matplotlib on OSX*](http://www.penandpants.com/2012/02/24/install-python/).
    -  For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
    - also recommended, for data-mining exercises, are [PRAW](https://github.com/praw-dev/praw) and [requests](https://github.com/kennethreitz/requests). 
