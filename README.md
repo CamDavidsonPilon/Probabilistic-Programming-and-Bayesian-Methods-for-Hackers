@@ -130,7 +130,7 @@ this book, though it comes with some dependencies.
     -  Jupyter is a requirement to view the ipynb files. It can be downloaded [here](http://jupyter.org/). Jupyter notebooks can be run by `(your-virtualenv) ~/path/to/the/book/Chapter1_Introduction $ jupyter notebook`
     -  For Linux users, you should not have a problem installing NumPy, SciPy, Matplotlib and PyMC. For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
     -  In the styles/ directory are a number of files (.matplotlirc) that used to make things pretty. These are not only designed for the book, but they offer many improvements over the default settings of matplotlib.
-2. The second, preferred, option is to use the nbviewer.jupyter.org site, which display Jupyter notebooks in the browser ([example](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Chapter1.ipynb)).
+2. The second, preferred, option is to use the nbviewer.jupyter.org site, which display Jupyter notebooks in the browser ([example](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
  
 3. PDFs are the least-preferred method to read the book, as PDFs are static and non-interactive. If PDFs are desired, they can be created dynamically using the [nbconvert](https://github.com/jupyter/nbconvert) utility.
