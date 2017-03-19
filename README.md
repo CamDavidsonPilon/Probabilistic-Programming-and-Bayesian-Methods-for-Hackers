@@ -17,7 +17,7 @@ PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not 
 
 Printed Version by Addison-Wesley
 ------
-<div style="float: right; margin-left: 30px;"><img title="created by Stef Gibson"style="float: right;margin-left: 30px;" src="http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0133902838.jpg" align=right height = 200 /></div>
+<div style="float: right; margin-left: 30px;"><img title="Bayesian Methods for Hackersg"style="float: right;margin-left: 30px;" src="http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0133902838.jpg" align=right height = 200 /></div>
 
 **Bayesian Methods for Hackers is now available as a printed book!** You can pick up a copy on [Amazon](http://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838). What are the differences between the online version and the printed version?
 
