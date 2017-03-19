@@ -320,15 +320,12 @@ Full-Width Styles
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
-  font-family: 'Computer Modern';
 }
 
 #desc {
   font-size: 26px;
   font-weight: 400;
   background: none;
-    font-family: "Computer Modern";
-
 }
 
 #TOC{
