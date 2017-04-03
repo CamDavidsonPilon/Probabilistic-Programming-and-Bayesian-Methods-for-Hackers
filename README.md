@@ -1,4 +1,4 @@
-#[Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+# [Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 #### *Using Python and PyMC*
 
 
@@ -160,7 +160,7 @@ Authors submit content or revisions using the GitHub interface.
 
 ### How to contribute
 
-####What to contribute?
+#### What to contribute?
 
 -  The current chapter list is not finalized. If you see something that is missing (MCMC, MAP, Bayesian networks, good prior choices, Potential classes etc.),
 feel free to start there. 
@@ -171,7 +171,7 @@ feel free to start there.
 -  Contributing to the Jupyter notebook styles
 
 
-####Commiting
+#### Commiting
 
 -  All commits are welcome, even if they are minor ;)
 -  If you are unfamiliar with Github, you can email me contributions to the email below.
@@ -222,7 +222,7 @@ community for developing the Notebook interface. All Jupyter notebook files are 
 
 
 
-####Contact
+#### Contact
 Contact the main author, Cam Davidson-Pilon at cam.davidson.pilon@gmail.com or [@cmrndp](https://twitter.com/cmrn_dp)
 
 
