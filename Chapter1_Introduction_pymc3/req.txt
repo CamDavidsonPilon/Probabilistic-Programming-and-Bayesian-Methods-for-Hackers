@@ -1,0 +1,63 @@
+# packages in environment at /Users/durch/anaconda2/envs/prob_prog:
+#
+appnope                   0.1.0                    py35_0    defaults
+cycler                    0.9.0                    py35_0    defaults
+decorator                 4.0.6                    py35_0    defaults
+freetype                  2.5.5                         0    defaults
+ipykernel                 4.1.1                    py35_0    defaults
+ipython                   4.0.1                    py35_0    defaults
+ipython-genutils          0.1.0                     <pip>
+ipython_genutils          0.1.0                    py35_0    defaults
+ipywidgets                4.1.0                    py35_0    defaults
+jinja2                    2.8                      py35_0    defaults
+jsonschema                2.4.0                    py35_0    defaults
+jupyter                   1.0.0                    py35_1    defaults
+jupyter-client            4.1.1                     <pip>
+jupyter-console           4.0.3                     <pip>
+jupyter-core              4.0.6                     <pip>
+jupyter_client            4.1.1                    py35_0    defaults
+jupyter_console           4.0.3                    py35_0    defaults
+jupyter_core              4.0.6                    py35_0    defaults
+libpng                    1.6.17                        0    defaults
+markupsafe                0.23                     py35_0    defaults
+matplotlib                1.5.0               np110py35_0    defaults
+mistune                   0.7.1                    py35_0    defaults
+nbconvert                 4.1.0                    py35_0    defaults
+nbformat                  4.0.1                    py35_0    defaults
+notebook                  4.0.6                    py35_0    defaults
+numpy                     1.10.2                   py35_0    defaults
+openssl                   1.0.2d                        0    defaults
+pandas                    0.17.1              np110py35_0    defaults
+path.py                   8.1.2                    py35_1    defaults
+patsy                     0.4.0               np110py35_0    defaults
+pexpect                   3.3                      py35_0    defaults
+pickleshare               0.5                      py35_0    defaults
+pip                       7.1.2                    py35_0    defaults
+ptyprocess                0.5                      py35_0    defaults
+pygments                  2.0.2                    py35_0    defaults
+pymc3                     3.0                       <pip>
+pyparsing                 2.0.3                    py35_0    defaults
+pyqt                      4.11.4                   py35_1    defaults
+python                    3.5.1                         0    defaults
+python-dateutil           2.4.2                    py35_0    defaults
+python.app                1.2                      py35_4    defaults
+pytz                      2015.7                   py35_0    defaults
+pyzmq                     15.1.0                   py35_0    defaults
+qt                        4.8.7                         1    defaults
+qtconsole                 4.1.1                    py35_0    defaults
+readline                  6.2                           2    defaults
+scipy                     0.16.1              np110py35_0    defaults
+setuptools                19.1.1                   py35_0    defaults
+simplegeneric             0.8.1                    py35_0    defaults
+sip                       4.16.9                   py35_0    defaults
+six                       1.10.0                   py35_0    defaults
+sqlite                    3.8.4.1                       1    defaults
+terminado                 0.5                      py35_1    defaults
+theano                    0.7.0                     <pip>
+tk                        8.5.18                        0    defaults
+tornado                   4.3                      py35_0    defaults
+traitlets                 4.0.0                    py35_0    defaults
+wheel                     0.26.0                   py35_1    defaults
+xz                        5.0.5                         0    defaults
+zeromq                    4.1.3                         0    defaults
+zlib                      1.2.8                         0    defaults
