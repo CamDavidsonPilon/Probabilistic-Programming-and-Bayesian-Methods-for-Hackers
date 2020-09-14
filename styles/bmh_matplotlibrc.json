@@ -3,15 +3,15 @@
   "axes.edgecolor": "#bcbcbc",
   "patch.linewidth": 0.5,
   "legend.fancybox": true,
-  "axes.color_cycle": [
-    "#348ABD",
-    "#A60628",
-    "#7A68A6",
-    "#467821",
-    "#CF4457",
-    "#188487",
-    "#E24A33"
-  ],
+  "axes.prop_cycle": cycler('color', [
+            "#348ABD",
+            "#A60628",
+            "#7A68A6",
+            "#467821",
+            "#CF4457",
+            "#188487",
+            "#E24A33"
+  ]),
   "axes.facecolor": "#eeeeee",
   "axes.labelsize": "large",
   "axes.grid": true,
