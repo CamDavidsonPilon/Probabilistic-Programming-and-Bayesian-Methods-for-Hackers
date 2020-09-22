@@ -205,8 +205,8 @@ def main_score( nhalo_all, x_true_all, y_true_all, x_ref_all, y_ref_all, sky_pre
         x_predicted=np.array([],dtype=float)
         y_predicted=np.array([],dtype=float)
         for i in range(nhalo):
-            x_predicted=np.append(x_predicted,float(sky[0])) #get the predicted values
-            y_predicted=np.append(y_predicted,float(sky[1]))
+            x_predicted=np.append(x_predicted,float(sky[2*i])) #get the predicted values
+            y_predicted=np.append(y_predicted,float(sky[2*i+1]))
             #The solution file for the test data provides masses 
             #to calculate the centre of mass where as the Training_halo.csv
             #direct provides x_ref y_ref. So in the case of test data
