@@ -60,11 +60,11 @@ try:
 except ImportError as e:
     print e
     print "requests / BeautifulSoup not found. Using data pulled on Feburary 11, 2013"
-    _data = np.genfromtxt( "data/gh_forks.csv", delimiter = "," ) #cehck this.
+    _data = np.genfromtxt( "data/gh_forks.csv", delimiter = "," ) #check this.
     forks_to_explore = _data[:,0]
     repo_with_forks  = _data[:,1]    
     
-    _data = np.genfromtxt( "data/gh_stars.csv", delimiter = "," ) #cehck this.
+    _data = np.genfromtxt( "data/gh_stars.csv", delimiter = "," ) #check this.
     stars_to_explore = _data[:,0]
     repo_with_stars  = _data[:,1]
     

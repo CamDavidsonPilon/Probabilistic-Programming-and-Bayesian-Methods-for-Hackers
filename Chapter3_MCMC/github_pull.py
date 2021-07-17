@@ -3,7 +3,7 @@
 """
 variables of interest:
     indp. variables
-    - language, given as a binary variable. Need 4 positions for 5 langagues
+    - language, given as a binary variable. Need 4 positions for 5 languages
     - #number of days created ago, 1 position
     - has wiki? Boolean, 1 position
     - followers, 1 position

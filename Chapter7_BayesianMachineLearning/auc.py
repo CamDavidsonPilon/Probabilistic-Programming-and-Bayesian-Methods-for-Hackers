@@ -34,7 +34,7 @@ def tied_rank(x):
 
 def auc(actual, posterior):
     """
-    Computes the area under the receiver-operater characteristic (AUC)
+    Computes the area under the receiver-operator characteristic (AUC)
 
     This function computes the AUC error metric for binary classification.
 
