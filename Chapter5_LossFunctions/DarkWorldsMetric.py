@@ -29,7 +29,7 @@ def calc_delta_r(x_predicted,y_predicted,x_true,y_true):
         x_true, y_true: vector for known x- and y-positions (1 to 3 elements)
     Returns:
         radial_distance: vector containing the scalar distances between the predicted halo centres and the true halo centres (1 to 3 elements)
-        true_halo_idexes: vector containing indexes of the input true halos which matches the predicted halo indexes (1 to 3 elements)
+        true_halo_indexes: vector containing indexes of the input true halos which matches the predicted halo indexes (1 to 3 elements)
         measured_halo_indexes: vector containing indexes of the predicted halo position with the  reference to the true halo position.
        e.g if true_halo_indexes=[0,1] and measured_halo_indexes=[1,0] then the first x,y coordinates of the true halo position matches the second input of the predicted x,y coordinates.
     """
@@ -45,7 +45,7 @@ def calc_delta_r(x_predicted,y_predicted,x_true,y_true):
                         #I will pass back
     
     #Pick a combination of true and predicted 
-    a=['01','012'] #Input for the permutatiosn, 01 number halos or 012
+    a=['01','012'] #Input for the permutations, 01 number halos or 012
     count=0 #For the index of the distances array
     true_halo_indexes=[] #The tuples which will show the order of halos picked
     predicted_halo_indexes=[]
@@ -116,7 +116,7 @@ def calc_theta(x_predicted, y_predicted, x_true, y_true, x_ref, y_ref):
                       x_true[x_true != x_predicted])) # Angle of the estimate
                                                                #wrt true halo centre
 
-    #Before finding the angle with the zero line as the line joiing the halo and the reference
+    #Before finding the angle with the zero line as the line joining the halo and the reference
     #point I need to convert the angle produced by Python to an angle between 0 and 2pi
     phi =convert_to_360(phi, x_predicted-x_true,\
          y_predicted-y_true)
@@ -238,7 +238,7 @@ def main_score( nhalo_all, x_true_all, y_true_all, x_ref_all, y_ref_all, sky_pre
             #true positions. These are found by matching up the true halos to
             #the predicted halos such that the average of all the radial distances
             #is optimal. it also contains indexes of the halos used which are used to
-            #show which halo has been mathced to which.
+            #show which halo has been matched to which.
             
             r_index_index = calc_delta_r(x_predicted, y_predicted, x_true, \
                                          y_true)
@@ -375,7 +375,7 @@ def main(user_fname, fname):
             #true positions. These are found by matching up the true halos to
             #the predicted halos such that the average of all the radial distances
             #is optimal. it also contains indexes of the halos used which are used to
-            #show which halo has been mathced to which.
+            #show which halo has been matched to which.
             
             r_index_index = calc_delta_r(x_predicted, y_predicted, x_true, \
                                          y_true)
