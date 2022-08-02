@@ -1,6 +1,6 @@
 # separation plot
 # Author: Cameron Davidson-Pilon,2013
-# see http://mdwardlab.com/sites/default/files/GreenhillWardSacks.pdf
+# see https://onlinelibrary.wiley.com/doi/10.1111/j.1540-5907.2011.00525.x
 
 
 import matplotlib.pyplot as plt
@@ -11,7 +11,7 @@ import numpy as np
 def separation_plot( p, y, **kwargs ):
     """
     This function creates a separation plot for logistic and probit classification. 
-    See http://mdwardlab.com/sites/default/files/GreenhillWardSacks.pdf
+    See https://onlinelibrary.wiley.com/doi/10.1111/j.1540-5907.2011.00525.x
     
     p: The proportions/probabilities, can be a nxM matrix which represents M models.
     y: the 0-1 response variables.
