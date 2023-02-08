@@ -1,7 +1,7 @@
 ipython>=2.0
 matplotlib>=1.2.1
 numpy>=1.7.1
-pymc==2.3.4
+pymc>=5.0.1
 pyzmq>=13.1.0
 scipy>=0.12.0
 tornado>=3.0.2
