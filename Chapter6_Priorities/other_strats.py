@@ -1,5 +1,5 @@
 #other strats.
-# TODO: UBC strat, epsilon-greedy
+# TODO: UBC strat
 
 import scipy.stats as stats
 import numpy as np
@@ -28,7 +28,7 @@ class GeneralBanditStrat(object):
 
     """
     
-    def __init__(self, bandits, choice_function):
+    def __init__(self, bandits, choice_function, epsilon=0.1):
         
         self.bandits = bandits
         n_bandits = len(self.bandits)
@@ -38,6 +38,7 @@ class GeneralBanditStrat(object):
         self.choices = []
         self.score = []
         self.choice_function = choice_function
+        self.epsilon = epsilon
 
     def sample_bandits(self, n=1):
         
@@ -97,9 +98,13 @@ def ucb_bayes(self):
 	return np.argmax(beta.ppf(alpha,
 							   1 + self.wins, 
 							   1 + self.trials - self.wins))
-							   
-	
-	
+
+def epsilon_greedy(self):
+    prob = np.random.random()
+    if prob <= self.epsilon:
+        return np.random.randint(0, len(self.wins))
+    else:
+        return np.argmax(self.wins / (self.trials +1))
 	
 class Bandits(object):
     """
