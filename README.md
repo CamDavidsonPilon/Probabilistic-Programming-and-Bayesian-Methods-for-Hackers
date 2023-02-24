@@ -35,37 +35,52 @@ See the project homepage [here](http://camdavidsonpilon.github.io/Probabilistic-
 
 The below chapters are rendered via the *nbviewer* at
 [nbviewer.jupyter.org/](http://nbviewer.jupyter.org/), and is read-only and rendered in real-time.
-Interactive notebooks + examples can be downloaded by cloning! 
+Interactive notebooks + examples can be downloaded by cloning!
+
+Alternatively, if you want to both *view and edit* the notebooks online without installing anything, you can launch them in [*Deepnote*](https://beta.deepnote.org/).
 
 ### PyMC2
 
-* [**Prologue:**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
+* [**Prologue:**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb)
+ Why we do it.
 
 * [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb)
+
     Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" Examples include:
     - Inferring human behaviour changes from text message rates
     
 * [**Chapter 2: A little more on PyMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC2.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC2.ipynb)
+
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Detecting the frequency of cheating students, while avoiding liars
     - Calculating probabilities of the Challenger space-shuttle disaster
     
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC2.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC2.ipynb)
+
     We discuss how MCMC operates and diagnostic tools. Examples include:
     - Bayesian clustering with mixture models
     
 * [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC2.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC2.ipynb)
+
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
     - How to sort Reddit comments from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC2.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC2.ipynb)
+
     The introduction of loss functions and their (awesome) use in Bayesian methods.  Examples include:
     - Solving the *Price is Right*'s Showdown
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition
     
 * [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC2.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC2.ipynb)
+
     Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
     - Multi-Armed Bandits and the Bayesian Bandit solution.
     - What is the relationship between data sample size and prior?
@@ -75,33 +90,46 @@ Interactive notebooks + examples can be downloaded by cloning!
 
 ### PyMC3
 
-* [**Prologue:**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
+* [**Prologue:**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb)
+ Why we do it.
 
 * [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb)
+
     Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" Examples include:
     - Inferring human behaviour changes from text message rates
     
 * [**Chapter 2: A little more on PyMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC3.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC3.ipynb)
+
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Detecting the frequency of cheating students, while avoiding liars
     - Calculating probabilities of the Challenger space-shuttle disaster
     
 * [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb)
+
     We discuss how MCMC operates and diagnostic tools. Examples include:
     - Bayesian clustering with mixture models
     
 * [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC3.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC3.ipynb)
+
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
     - How to sort Reddit comments from best to worst (not as easy as you think)
     
 * [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC3.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC3.ipynb)
+
     The introduction of loss functions and their (awesome) use in Bayesian methods.  Examples include:
     - Solving the *Price is Right*'s Showdown
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition
     
 * [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC3.ipynb)
+ [<img align="right" height="24" src="https://beta.deepnote.org/buttons/try-in-a-jupyter-notebook.svg">](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC3.ipynb)
+
     Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
     - Multi-Armed Bandits and the Bayesian Bandit solution.
     - What is the relationship between data sample size and prior?
@@ -130,7 +158,9 @@ this book, though it comes with some dependencies.
 2. The second, preferred, option is to use the nbviewer.jupyter.org site, which display Jupyter notebooks in the browser ([example](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb)).
 The contents are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
  
-3. PDFs are the least-preferred method to read the book, as PDFs are static and non-interactive. If PDFs are desired, they can be created dynamically using the [nbconvert](https://github.com/jupyter/nbconvert) utility.
+3. The third option is to use [*Deepnote*](https://beta.deepnote.org), which allows you to view, edit and save the notebooks online in the browser ([example](https://beta.deepnote.org/launch?template=data-science&url=https%3A//github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC3.ipynb)). Just like with nbviewer.jupyter.org, the chapters are updated synchronously as commits are made to the book. You can use the Contents section above to link to the chapters.
+
+4. PDFs are the least-preferred method to read the book, as PDFs are static and non-interactive. If PDFs are desired, they can be created dynamically using the [nbconvert](https://github.com/jupyter/nbconvert) utility.
  
 
 Installation and configuration
